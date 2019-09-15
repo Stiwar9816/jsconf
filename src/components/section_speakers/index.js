@@ -22,7 +22,7 @@ import Speaker_18 from "../images/speaker_18";
 import "./speakers.scss";
 
 const SectionSpeakers = () => (
-  <section className="section-speakers" id="speaker">
+  <section className="section-speakers page-section" id="speaker">
     <div className="container">
       <h2 className="section-speakers__title  inner-padding">speakers</h2>
 

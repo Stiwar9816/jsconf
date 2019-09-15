@@ -4,7 +4,7 @@ import './header.scss'
 
 const Header = () => (
 
-  <header className="header">
+  <header className="header page-section"  id="top">
 
     <div className="header-banner">
       <img/>

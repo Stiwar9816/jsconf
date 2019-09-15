@@ -7,7 +7,7 @@ import RutaN_Venue from "../images/rutan_venue";
 export default class Venue extends Component {
   render() {
     return (
-      <div className="Venue-component" id="venue">
+      <div className="Venue-component page-section" id="venue">
         <div className="Venue-left">
           <h2 className="Venue-title">VENUE</h2>
           <p>Hotels we</p>

@@ -7,7 +7,7 @@ import Jsconfco05 from "../images/jsconfco_gallery05";
 export default class sectionStayTuned extends Component {
   render() {
     return (
-      <section className="section-tuned" id="tuned">
+      <section className="section-tuned page-section" id="tuned">
         <div class="container">
           <div className="col inner-padding">
             <div className="section-tuned__2018">

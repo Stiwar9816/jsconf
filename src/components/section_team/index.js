@@ -21,7 +21,7 @@ import Stiwar from "../images/team-stiwar";
 export default class sectionTeam extends Component {
   render() {
     return (
-      <section className="section-team" id="team">
+      <section className="section-team page-section" id="team">
         <div className="container">
           <h2 className="inner-padding">TEAM</h2>
 
