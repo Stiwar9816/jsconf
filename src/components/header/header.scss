@@ -4,9 +4,9 @@
 
 
   &-banner {
+    background: url(../../assets/images/banner_jsconfco_2018.jpg);
     position: relative;
     height: 100vh;
-
     & img {
       width: fit-content;
       height: 100%;
@@ -33,8 +33,8 @@
     top: 0;
 
     .content-logo {
+      background: url(../../assets/images/LogoJSConco2019.svg);
       width: 80%;
-
       @media only screen and (min-width : 720px) {
         width: 45%;
       }
