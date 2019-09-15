@@ -351,7 +351,7 @@ const SectionSpeakers = () => (
         <div className="section-speakers__content-btn  inner-padding">
           <a
             className="section-speakers__btn"
-            href="#"
+            href="https://sessionize.com/jsconf-colombia-2019"
             target="_blank"
             rel="noopener noreferrer"
           >

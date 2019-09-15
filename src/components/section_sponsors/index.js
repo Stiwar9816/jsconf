@@ -26,13 +26,13 @@ export default class SectionSponsors extends Component {
                   To sign up for a sponsorship slot or if you have any questions
                   regarding sponsorship, contact us at
                 </p>
-                <span>hola@jsconf.co</span>
+                <a href="http://jsconf.co/" className="email">hola@jsconf.co</a>
                 <br />
                 <br />
                 <br />
                 <a
                   className="section-sponsors__btn"
-                  href="#"
+                  href="http://jsconf.co/public/assets/pdf/prospectusJSConfCO2019.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
