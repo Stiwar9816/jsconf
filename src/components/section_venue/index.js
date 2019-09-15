@@ -30,11 +30,11 @@ export default class SectionVenue extends Component {
               <RutaN />
             </figure>
           </div>
-        </div>
         <div className="section-venue__rutaN">
           <figure>
             <RutaN_Venue />
           </figure>
+        </div>
         </div>
       </div>
     );
