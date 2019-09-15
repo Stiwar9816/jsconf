@@ -338,7 +338,7 @@ export default class sectionTeam extends Component {
                   <h5>Stiwar Asprilla</h5>
                   <p>Team Web</p>
                   <a
-                    href="https://www.instagram.com/jsconfco"
+                    href="https://twitter.com/AsprillaStiwar"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -356,7 +356,7 @@ export default class sectionTeam extends Component {
                   <h5>Hamilton Galeano</h5>
                   <p>Team Web</p>
                   <a
-                    href="https://www.instagram.com/jsconfco"
+                    href="https://twitter.com/MiltonCode"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

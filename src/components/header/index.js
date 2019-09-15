@@ -1,14 +1,13 @@
 import React from 'react'
-
-import './header.scss'
 import Logo2019 from '../images/Logo2019'
+import './header.scss'
 
 const Header = () => (
 
   <header className="header">
 
     <div className="header-banner">
-      <img src="../../assets/images/banner_jsconfco_2018.jpg" alt="Logo JSConf colombia"/>
+      <img/>
     </div>
 
     <div className="container">
@@ -17,9 +16,9 @@ const Header = () => (
 
         <div className="col  content-logo">
           {/* <img src="../../assets/images/LogoJSConco2019.png" alt="Logo JSConf colombia"/> */}
-          <figure>
+          <a href="/">
             <Logo2019/>
-          </figure>
+          </a>
         </div>
 
         <p className="col  header-information">Bringing the Colombian JavaScript community under the roof.</p>
