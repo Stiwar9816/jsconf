@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./scroll-menu-icon";
+// import "./scroll-menu-icon";
 import "./aside.scss";
 
 class Asidebar extends React.Component {
