@@ -39,7 +39,7 @@
 
   .section-venue__hotels {
     // margin-left: 200px;
-    padding-left: 800px;
+    padding-left: 600px;
     margin-top: -320px;
     @media only screen and (max-width: 768px) {
       padding-left: 0;
@@ -86,8 +86,8 @@
   .section-venue__rutaN {
     max-width: 400px;
     margin: var (--gutter);
-    margin-left: 250px;
-    margin-top: 80px;
+    margin-left: 350px;
+    margin-top: 100px;
     @media only screen and (max-width: 768px) {
       margin-left: 90px;
       max-width: 250px;
