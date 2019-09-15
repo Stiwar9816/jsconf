@@ -7,7 +7,7 @@ export default class SectionVenue extends Component {
   render() {
     return (
       <div className="section-venue__background">
-        <h2>VENUE</h2>
+        <h2 className="inner-padding">VENUE</h2>
         <p>
           Strategic location, with easy access to all of <br />the city's
           points of interest.
