@@ -33,10 +33,13 @@
     top: 0;
 
     .content-logo {
-      background: url(../../assets/images/LogoJSConco2019.svg);
-      width: 80%;
+      // width: 70%;
+      max-width: 380px;
+      // background-image: url(../../assets/images/LogoJSConco2019.png);
       @media only screen and (min-width : 720px) {
         width: 45%;
+        // max-width: 200px;
+        // max-width: 200px;
       }
     }
 

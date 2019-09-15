@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './header.scss'
+import Logo2019 from '../images/Logo2019'
 
 const Header = () => (
 
@@ -15,7 +16,10 @@ const Header = () => (
       <div className="row  content-information">
 
         <div className="col  content-logo">
-          <img src="../../assets/images/LogoJSConco2019.svg" alt="Logo JSConf colombia"/>
+          {/* <img src="../../assets/images/LogoJSConco2019.png" alt="Logo JSConf colombia"/> */}
+          <figure>
+            <Logo2019/>
+          </figure>
         </div>
 
         <p className="col  header-information">Bringing the Colombian JavaScript community under the roof.</p>
