@@ -4,14 +4,13 @@
 
 
   &-banner {
+    position: relative;
     background: url(../../assets/images/banner_jsconfco_2018.jpg);
     background-size: cover;
-    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    & img {
-      width: fit-content;
-      height: 100%;
-    }
+
     &::before {
       position: absolute;
       content: '';

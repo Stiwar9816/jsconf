@@ -33,7 +33,7 @@ export default class SectionSponsors extends Component {
                 <a
                   className="section-sponsors__btn"
                   href="http://jsconf.co/public/assets/pdf/prospectusJSConfCO2019.pdf"
-                  target="_blank"
+                  target="__blank"
                   rel="noopener noreferrer"
                 >
                   DOWNLOAD OUR BRIEF

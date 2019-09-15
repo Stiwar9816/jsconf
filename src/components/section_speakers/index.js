@@ -352,7 +352,7 @@ const SectionSpeakers = () => (
           <a
             className="section-speakers__btn"
             href="https://sessionize.com/jsconf-colombia-2019"
-            target="_blank"
+            target="__blank"
             rel="noopener noreferrer"
           >
             submit a proposal
