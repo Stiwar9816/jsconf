@@ -1,0 +1,132 @@
+.section-tuned {
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 20%,
+    100% 80%,
+    100% 100%,
+    20% 100%,
+    0% 80%,
+    0 0
+  );
+  background-color: var(--v-primaryColor);
+
+  // version movil - gallery oculta
+  &__content-gallery {
+    display: none;
+    @media only screen and (min-width : 1000px) {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: fit-content;
+      padding-top: var(--gutter);
+    }
+  }
+
+
+  .section-tuned__2018 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--p-primaryColor);
+    font-size: 2.25em;
+
+    &-subtitle {
+      font-weight: var(--bold);
+    }
+
+    a {
+      font-size: 1.25em;
+      color: var(--p-primaryColor);
+      text-decoration: underline;
+      &:hover {
+        color: var(--v-fourthColor);
+      }
+    }
+
+    @media only screen and (min-width : 1000px) {
+      flex-direction: row;
+      justify-content: space-around;
+      max-width: 700px;
+      margin: 0 auto;
+      &-subtittle, a { font-size: 1em; }
+    }
+
+  }
+
+
+  .section-tuned-Signup {
+    text-align: center;
+
+    &__title {
+      padding-bottom: var(--gutter);
+      color: var(--primaryColor);
+      font-size: 3.25em;
+      font-weight: var(--bold);
+    }
+
+    p {
+      color: var(--p-primaryColor);
+      font-size: 1.5em;
+    }
+
+    form {
+      margin-bottom: 0;
+
+      // input
+      .section-tuned__input-signup {
+        color: var(--v-primaryColor);
+        background-color: var(--p-primaryColor);
+        padding-left: var(--gutter);
+        padding-right: var(--gutter);
+        font-size: 1.5em;
+        max-width: fit-content;
+        &::placeholder { color: #999999; }
+        &:-ms-input-placeholder { color: #999999; } /* IE 10+ */
+        &::-webkit-input-placeholder { color: #999999; } /* WebKit */
+        &::-moz-placeholder { color: #999999; } /* Firefox 19+ */
+      }
+
+      // boton
+      .section-tuned__btn-signup {
+        padding: 0 2em;
+        margin-top: var(--gutter);
+        cursor: pointer;
+        background-color: var(--secondColor);
+        color: var(--p-primaryColor);
+        font-size: 1em;
+        &:hover {
+          color: var(--primaryColor);
+        }
+      }
+    }
+
+    .section-tuned__Follow {
+
+      h3 {
+        margin-bottom: var(--gutter);
+        color: var(--primaryColor);
+        font-weight: var(--bold);
+        font-size: 1.5em;
+        letter-spacing: 1.5px;
+      }
+      .networks {
+        a {
+          display: inline-block;
+          margin-right: var(--gutter);
+          margin-left: var(--gutter);
+          font-size: 2.5em;
+          color: var(--p-primaryColor);
+          &:hover{
+            color: var(--primaryColor);
+          }
+        }
+      }
+    }
+
+    @media only screen and (min-width : 1000px){
+      text-align-last: left;
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--v-secondColor);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 60%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 60%);
+
+  &-copyright {
+    padding: calc(var(--gutter) * 2);
+    color: var(--p-primaryColor);
+    font-weight: var(--regular);
+    text-align: center;
+    font-size: 1.125em;
+  }
+}

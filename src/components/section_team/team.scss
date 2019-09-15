@@ -1,0 +1,58 @@
+.section-team {
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0 100%,
+    0% 20%
+  );
+  padding-bottom: 30px;
+  background-color: #181b46;
+  background-size: cover;
+  h2 {
+    text-align: center;
+    color: #e55c5b;
+    font-size: 54px;
+    font-weight: 700;
+    @media only screen and (max-width: 768px) {
+      font-size: 36px;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 6px;
+    margin-right: 42px;
+    margin-left: 34px;
+    h5 {
+      color: var(--v-thirdColor);
+      @media only screen and (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+    p {
+      color: #181b22;
+      font-weight: 400;
+      &:hover {
+        color: #e8b63b;
+      }
+    }
+    a {
+      font-size: 25px;
+      :hover {
+        color: var(--primaryColor);
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 17px;
+      }
+    }
+  }
+}

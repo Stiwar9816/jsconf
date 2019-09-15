@@ -1,0 +1,53 @@
+.section-sponsors {
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0 100%,
+    0% 20%
+  );
+  background-color: var(--v-thirdColor);
+  padding-bottom: 100px;
+  padding-top: 120px;
+  &__title {
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: var(--bold);
+    font-size: 3.375em;
+    padding: var(--gutter);
+  }
+
+  &__content {
+    p {
+      text-align: left;
+      color: #ffffff;
+      font-weight: var(--regular);
+      font-size: 1.5em;
+    }
+    span {
+      color: var(--thirdColor);
+      font-weight: var(--regular);
+      font-size: 1.5em;
+      text-align: left;
+      text-decoration: underline;
+      cursor: pointer;
+      &:hover {
+        color: var(--v-fourthColor);
+      }
+    }
+  }
+  &__btn {
+    padding: var(--gutter);
+    border: 2px solid var(--secondColor);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: var(--bold);
+    transition: 0.5s ease;
+    color: var(--p-primaryColor);
+    background-color: var(--secondColor);
+  }
+}

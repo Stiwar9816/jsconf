@@ -1,0 +1,87 @@
+// Definición de variables, paleta colores, tipografia, funciones, mixin etc...
+
+// Importar Tipografia - titulo y parrafo
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+
+
+/*------------------------------- VARIABLES -------------------------------*/
+
+// Tipografia
+$font-title : 'Space Mono', monospace;
+$font-parrafo : 'Space Mono', monospace;
+
+// // color palette
+// $colors: (
+//     primaryColor : #E8B63B,
+//     secondColor : #2A00FF,
+//     thirdColor : #E55C5B,
+// // Colores variantes
+//     v-primaryColor : #181B22,
+//     v-secondColor : #181B46,
+//     v-thirdColor : #6E3081,
+//     v-fourthColor : #A7554A,
+// // Color de parrafo
+//     p-primaryColor : #E1E1E1
+// );
+
+// // Rompedores mediaqueries
+// $breakpoints: (
+//   xs: 30em, /* 480 / 16  */
+//   s: 37.5em, /* 600 / 16  */
+//   m: 45em, /* 720 / 16 */
+//   l: 64em, /* 1024 / 16 */
+//   xl: 75em /* 1200/ 16 */
+// );
+
+
+// // Tamaño máximo y espacio
+// $max-width: 1366px;
+// $gutter: 16px;
+
+
+/*------------------------------- MIXINS -------------------------------*/
+
+// Mediaqueries
+// @mixin mq($bp) {
+//   @if map-has-key($breakpoints, $bp) {
+//     @media screen and ( min-width: map-get($breakpoints, $bp) ) {
+//       @content;
+//     }
+//   } @else {
+//     @media screen and ( min-width: $bp ) {
+//       @content;
+//     }
+//   }
+// }
+// Utilizacion:  @include mq(m)
+
+// // Reset - <ul>
+// @mixin ul-reset {
+//     margin-top: 0;
+//     margin-bottom: 0;
+//     padding-left: 0;
+//     list-style: none;
+// }
+
+// // Reset - <a>
+// @mixin a-reset {
+//     text-decoration: none;
+// }
+
+// /*------------------------------- FUNCIONES -------------------------------*/
+
+
+// // Ruta de imagenes
+// @function ruta-img($img){
+//     @return ("img/css/"+$img+".jpg");
+// }
+
+// //Convertidor de px a em
+// @function em($px){
+//     @return ($px / 16px) * 1em;
+// }
+
+// //Obtener color
+// @function color($color){
+//     @return map-get($colors, $color);
+// }
