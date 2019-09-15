@@ -9,14 +9,10 @@ export default class SectionVenue extends Component {
       <div className="section-venue__background">
         <h2 className="inner-padding">VENUE</h2>
         <p>
-          Strategic location, with easy access to all of <br />the city's
-          points of interest.
+          Strategic location, with easy access to all of <br />
+          the city's points of interest.
         </p>
-        <div className="section-venue__rutaN">
-          <figure>
-            <RutaN_Venue />
-          </figure>
-        </div>
+
         <div className="section-venue__hotels">
           <h3>
             Hotels we
@@ -35,7 +31,11 @@ export default class SectionVenue extends Component {
               <RutaN />
             </figure>
           </div>
-
+        </div>
+        <div className="section-venue__rutaN">
+          <figure>
+            <RutaN_Venue />
+          </figure>
         </div>
       </div>
     );

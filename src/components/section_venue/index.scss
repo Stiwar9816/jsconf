@@ -10,9 +10,10 @@
     0 0
   );
   background-color: var(--v-fourthColor);
-  padding-bottom: 140px;
+  padding-bottom: 180px;
   // padding-top: 5px;
   background-size: cover;
+
   @media only screen and (max-width: 768px) {
     padding-bottom: 90px;
   }
@@ -38,9 +39,9 @@
   }
 
   .section-venue__hotels {
-    // margin-left: 200px;
-    padding-left: 600px;
-    margin-top: -320px;
+    //  margin-left: 200px;
+    padding-left: 250px;
+    margin-top: 50px;
     @media only screen and (max-width: 768px) {
       padding-left: 0;
       margin-top: 0;
@@ -83,16 +84,17 @@
       }
     }
   }
-  .section-venue__rutaN {
-    max-width: 400px;
-    margin: var (--gutter);
-    margin-left: 350px;
-    margin-top: 100px;
-    @media only screen and (max-width: 768px) {
-      margin-left: 90px;
-      max-width: 250px;
-      padding-bottom: auto;
-      margin-top: 0;
-    }
-  }
+}
+    .section-venue__rutaN {
+      max-width: 400px;
+      margin: var (--gutter);
+       margin-left: 750px;
+      // padding-left: 20px;
+       margin-top: -350px;
+      @media only screen and (max-width: 768px) {
+        margin-left: 90px;
+        max-width: 250px;
+        padding-bottom: auto;
+        margin-top: 0;
+      }
 }
