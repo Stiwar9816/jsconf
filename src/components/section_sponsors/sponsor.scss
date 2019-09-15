@@ -15,28 +15,37 @@
   &__title {
     text-align: left;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--p-primaryColor);
     font-weight: var(--bold);
-    font-size: 3.375em;
+    font-size: 54px;
     padding: var(--gutter);
+    @media only screen and (max-width: 768px){
+      font-size: 36px;
+    }
   }
 
   &__content {
     p {
       text-align: left;
-      color: #ffffff;
+      color: var(--p-primaryColor);
       font-weight: var(--regular);
-      font-size: 1.5em;
+      font-size: 24px;
+      @media only screen and (max-width:768px){
+        font-size: 18px
+      }
     }
     span {
       color: var(--thirdColor);
       font-weight: var(--regular);
-      font-size: 1.5em;
+      font-size: 24px;
       text-align: left;
       text-decoration: underline;
       cursor: pointer;
       &:hover {
         color: var(--v-fourthColor);
+      }
+      @media only screen and (max-width:768px){
+        font-size: 18px
       }
     }
   }

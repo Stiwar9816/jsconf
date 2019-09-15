@@ -10,7 +10,8 @@
     0 0
   );
   background-color: var(--v-fourthColor);
-  padding-bottom: 120px;
+  padding-bottom: 160px;
+  background-size: cover;
   @media only screen and (max-width: 768px) {
     padding-bottom: 90px;
   }
@@ -37,7 +38,7 @@
 
   .section-venue__hotels {
     // margin-left: 200px;
-    padding-left: 240px;
+    padding-left: 280px;
     @media only screen and (max-width: 768px) {
       padding-left: 0;
     }
@@ -61,10 +62,10 @@
     }
     p {
       // margin-top: 1em;
-      margin: var(--gutter);
       font-size: 24px;
       text-align: left;
       @media only screen and (max-width: 768px) {
+        margin: var(--gutter);
         text-align: center;
         font-size: 18px;
       }
@@ -80,9 +81,9 @@
     }
   }
   .section-venue__rutaN {
-    max-width: 500px;
+    max-width: 400px;
     margin: var (--gutter);
-    margin-left: 700px;
+    margin-left: 690px;
     margin-top: -380px;
     @media only screen and (max-width: 768px) {
       margin-left: 90px;
