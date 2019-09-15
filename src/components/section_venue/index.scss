@@ -10,7 +10,7 @@
     0 0
   );
   background-color: var(--v-fourthColor);
-  padding-bottom: 160px;
+  padding-bottom: 140px;
   // padding-top: 5px;
   background-size: cover;
   @media only screen and (max-width: 768px) {
@@ -39,9 +39,11 @@
 
   .section-venue__hotels {
     // margin-left: 200px;
-    padding-left: 250px;
+    padding-left: 800px;
+    margin-top: -320px;
     @media only screen and (max-width: 768px) {
       padding-left: 0;
+      margin-top: 0;
     }
     h3 {
       margin: var(--gutter);
@@ -84,8 +86,8 @@
   .section-venue__rutaN {
     max-width: 400px;
     margin: var (--gutter);
-    margin-left: 500px;
-    margin-top: -380px;
+    margin-left: 250px;
+    margin-top: 80px;
     @media only screen and (max-width: 768px) {
       margin-left: 90px;
       max-width: 250px;
