@@ -1,4 +1,7 @@
-.section-venue__background {
+.Venue-component {
+  background-color: var(--v-fourthColor);
+  color: white;
+  padding: 80px;
   clip-path: polygon(
     20% 0%,
     80% 0%,
@@ -9,92 +12,144 @@
     0% 80%,
     0 0
   );
-  background-color: var(--v-fourthColor);
-  padding-bottom: 180px;
-  // padding-top: 5px;
-  background-size: cover;
 
-  @media only screen and (max-width: 768px) {
-    padding-bottom: 90px;
-  }
-  h2 {
-    color: var(--v-secondColor);
-    font-size: 54px;
-    text-align: center;
-    font-weight: 700;
-    @media only screen and (max-width: 768px) {
-      font-size: 36px;
-    }
-  }
   p {
-    color: var(--p-primaryColor);
-    font-weight: 400;
+    margin: 0 0 30px;
+    line-height: 1.1;
+    margin-bottom: 0;
     font-size: 24px;
-    text-align: center;
-    margin: var(--gutter);
-    @media only screen and (max-width: 768px) {
-      font-size: 18px;
-      margin-top: -46px;
-    }
+    // font-family: "Montserrat", sans-serif;
+    font-weight: var(--regular);
+  }
+}
+
+.Venue-left {
+  position: relative;
+  top: 65px;
+  left: 60px;
+
+  .Venue-title {
+    text-align: -webkit-left;
+    color: white;
+    font-size: 42px;
+    // font-family: "Nunito", sans-serif;
+    font-weight: var(--bold);
   }
 
-  .section-venue__hotels {
-    //  margin-left: 200px;
-    padding-left: 250px;
-    margin-top: 50px;
-    @media only screen and (max-width: 768px) {
-      padding-left: 0;
-      margin-top: 0;
+  .Venue-hotels10 {
+    width: 250px;
+    margin: 1em 0;
+    padding: 0.9em;
+  }
+
+  .Venue-btn {
+    // padding: var(--gutter);
+    padding: 10px;
+    border: 2px solid var(--secondColor);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: var(--bold);
+    transition: 0.5s ease;
+    color: var(--p-primaryColor);
+    background-color: var(--secondColor);
+  }
+}
+
+.Venue-text {
+  text-align: -webkit-center;
+  padding-right: 200px;
+
+  p {
+    margin: 0 0 30px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    font-size: 24px;
+    // font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    //padding-top: 20px;
+  }
+
+  .Venue-rutan {
+    position: relative;
+    width: 500px;
+    bottom: 140px;
+    padding-left: 70px;
+
+    .logo {
+      width: 170px;
+      position: relative;
     }
-    h3 {
-      margin: var(--gutter);
-      text-align: left;
-      font-weight: 700;
-      font-size: 24px;
-      color: var(--v-secondColor);
-      @media only screen and (max-width: 768px) {
-        text-align: center;
-        font-size: 25px;
-      }
-    }
-    .section-venue__hotel {
-      max-width: 220px;
-      margin: var(--gutter);
-      @media only screen and (max-width: 768px) {
-        margin-left: 100px;
-      }
-    }
-    p {
-      // margin-top: 1em;
-      font-size: 24px;
-      text-align: left;
-      @media only screen and (max-width: 768px) {
-        margin: var(--gutter);
-        text-align: center;
-        font-size: 18px;
-      }
-      //   margin-right: -9em;
-    }
-    .section-venue__rutan {
-      max-width: 200px;
-      margin: var(--gutter);
-      @media only screen and (max-width: 768px) {
-        margin-left: 130px;
-        max-width: 180px;
-      }
+
+    .span-venue {
+      margin: 0 0 30px;
+      line-height: 1.6;
+      margin-bottom: 0;
+      font-size: 14px;
+      // font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      //bottom: 100px;
     }
   }
 }
-    .section-venue__rutaN {
-      max-width: 400px;
-      margin: var (--gutter);
-       margin-left: 750px;
-      // padding-left: 20px;
-       margin-top: -350px;
-      @media only screen and (max-width: 768px) {
-        margin-left: 90px;
-        max-width: 250px;
-        padding-bottom: auto;
-        margin-top: 0;
+
+.Venue-img {
+  width: 400px;
+  float: right;
+  position: relative;
+  bottom: 130px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Venue-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    .Venue-left,
+    .Venue-img,
+    .Venue-rutan {
+      position: initial;
+    }
+    .Venue-text {
+      padding: 0;
+    }
+    .Venue-img {
+      margin: 50px 0;
+    }
+    .Venue-rutan {
+      padding: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Venue-component {
+    flex-direction: column;
+    display: flex;
+    padding: 150px 20px;
+    align-items: center;
+    .Venue-left {
+      position: initial;
+      .Venue-btn {
+        margin-top: 10px;
       }
+    }
+    .Venue-img {
+      width: 100%;
+      position: initial;
+      margin: 50px 0;
+    }
+    .Venue-text {
+      padding: 0;
+      .Venue-rutan {
+        padding: 0;
+        position: initial;
+        width: 100%;
+        .logo {
+          max-width: 50%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
 }
