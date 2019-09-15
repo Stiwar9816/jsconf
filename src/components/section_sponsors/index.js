@@ -3,7 +3,7 @@ import "./sponsor.scss";
 export default class SectionSponsors extends Component {
   render() {
     return (
-      <section className="section-sponsors">
+      <section className="section-sponsors" id="sponsor">
         <div className="container">
           <h2 className="section-sponsors__title">
             WANT TO BE A <br />
