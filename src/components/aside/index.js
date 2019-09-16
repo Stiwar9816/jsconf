@@ -51,7 +51,7 @@ class Asidebar extends React.Component {
                 <a className="main-menu__link" href="#team">team</a>
               </li>
               <li className="main-menu__item">
-                <a className="main-menu__link" href="/schedule">schedule</a>
+                <a className="main-menu__link" href="#schedule">schedule</a>
               </li>
               <li className="main-menu__item">
                 <a className="main-menu__link" href="#tuned">stay tuned</a>
