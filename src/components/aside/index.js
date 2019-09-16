@@ -11,32 +11,7 @@ class Asidebar extends React.Component {
 
       <aside className="aside">
 
-        {/*   <div className="container">
-          <div className="data-schedule">
-            <a
-            className="data-schedule__title"
-            href="#"
-            target="__blank"
-            >schedule</a>
-            <i className="icon-schedule"></i>
-          </div>
-        </div> */}
-
         <div className="sidebar" id="sidebar">
-
-          {/* <div className="content-btn-menu">
-            <a className="icon-nav  btn-close" href="#" rel="noopener noreferrer">
-              <i className="icon-close"></i>
-            </a>
-          </div> */}
-
-          {/* <div className="logo-menu">
-            <a
-              href="#"
-            >
-              <img src="icons/logo-jsconfco-2019.svg" alt="Logo JSConf colombia"/>
-            </a>
-          </div> */}
 
           <div className="menu-nav">
             <ul className="main-menu" id="main-menu">
@@ -63,16 +38,6 @@ class Asidebar extends React.Component {
               </li>
             </ul>
           </div>
-
-          {/* <div className="social-media-menu">
-            <p className="social-media-menu__description">Follow us!</p>
-            <a className="icon-nav" href="#" target="_blank" rel="noopener noreferrer">
-              <i className="icon-instagram"></i>
-            </a>
-            <a className="icon-nav" href="#" target="_blank" rel="noopener noreferrer">
-              <i className="icon-twitter"></i>
-            </a>
-          </div> */}
 
         </div>
 
