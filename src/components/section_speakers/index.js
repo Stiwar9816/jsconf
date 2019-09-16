@@ -17,6 +17,11 @@ import Speaker_15 from "../images/speaker_15";
 import Speaker_16 from "../images/speaker_16";
 import Speaker_17 from "../images/speaker_17";
 import Speaker_18 from "../images/speaker_18";
+import Speaker_19 from "../images/speaker_19";
+import Speaker_20 from "../images/speaker_20";
+import Speaker_21 from "../images/speaker_21";
+import Speaker_22 from "../images/speaker_22";
+import Speaker_23 from "../images/speaker_23";
 
 import "./speakers.scss";
 
@@ -37,6 +42,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/vanessamarely"
+                target="__blank"
               >
                 @vanessamarely
               </a>
@@ -56,7 +62,8 @@ const SectionSpeakers = () => (
               </h3>
               <a
                 className="section-speakers__social"
-                href="https://twitter.com/_NativeGeekGirl"
+                href="https://twitter.com/NativeGeekGir"
+                target="__blank"
               >
                 @NativeGeekGirl
               </a>
@@ -77,6 +84,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/a0viedo"
+                target="__blank"
               >
                 @a0viedo
               </a>
@@ -95,6 +103,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/cjihrig"
+                target="__blank"
               >
                 @cjihrig
               </a>
@@ -115,6 +124,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/bolonio"
+                target="__blank"
               >
                 @bolonio
               </a>
@@ -133,6 +143,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/melinamejia95"
+                target="__blank"
               >
                 @melinamejia95
               </a>
@@ -153,6 +164,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/slashie_"
+                target="__blank"
               >
                 @slashie_
               </a>
@@ -171,6 +183,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/aragno157"
+                target="__blank"
               >
                 @aragno157
               </a>
@@ -191,6 +204,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/marisbotero"
+                target="__blank"
               >
                 @marisbotero
               </a>
@@ -225,6 +239,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/Danielest_rp"
+                target="__blank"
               >
                 @Danielest_rp
               </a>
@@ -243,6 +258,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/antonmc"
+                target="__blank"
               >
                 @antonmc
               </a>
@@ -262,7 +278,8 @@ const SectionSpeakers = () => (
               <h3 className="section-speakers__name">Jennifer Wong</h3>
               <a
                 className="section-speakers__social"
-                href="https://twitter.com/mybluewristband"
+                href="https://twitter.com/mybluewristban"
+                target="__blank"
               >
                 @mybluewristband
               </a>
@@ -281,6 +298,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/_lrlna"
+                target="__blank"
               >
                 @_lrlna
               </a>
@@ -301,6 +319,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/sbinlondon"
+                target="__blank"
               >
                 @sbinlondon
               </a>
@@ -319,6 +338,7 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/luisvillarra"
+                target="__blank"
               >
                 @luisvillarra
               </a>
@@ -339,36 +359,136 @@ const SectionSpeakers = () => (
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/luisalejovega"
+                target="__blank"
               >
                 @luisalejovega
               </a>
             </div>
           </article>
         </div>
+
+        <div className="col  s12  m6  l6">
+          <article className="section-speakers__content">
+            <figure className="section-speakers__img">
+              <Speaker_18 />
+              {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
+            </figure>
+            <div className="section-speakers__description">
+              <h3 className="section-speakers__name">
+                Constanza Yáñez Calderon
+              </h3>
+              <a
+                className="section-speakers__social"
+                href="https://twitter.com/co_constanza"
+                target="__blank"
+              >
+                @co_constanza
+              </a>
+            </div>
+          </article>
+        </div>
       </div>
 
-    <div class="btn-next-section">
-      <a href="#sponsor">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 30">
-          <g id="Layer_2" data-name="Layer 2">
-            <g id="Layer_1-2" data-name="Layer 1">
-              <rect class="cls-1" width="5" height="5"/>
-              <rect class="cls-1" x="50" width="5" height="5"/>
-              <rect class="cls-1" x="5" y="5" width="5" height="5"/>
-              <rect class="cls-1" x="45" y="5" width="5" height="5"/>
-              <rect class="cls-1" x="10" y="10" width="5" height="5"/>
-              <rect class="cls-1" x="40" y="10" width="5" height="5"/>
-              <rect class="cls-1" x="15" y="15" width="5" height="5"/>
-              <rect class="cls-1" x="35" y="15" width="5" height="5"/>
-              <rect class="cls-1" x="20" y="20" width="5" height="5"/>
-              <rect class="cls-1" x="30" y="20" width="5" height="5"/>
-              <rect class="cls-1" x="25" y="25" width="5" height="5"/>
-            </g>
-          </g>
-        </svg>
-      </a>
-    </div> 
+      <div className="row">
+        <div className="col  s12  m6  l6">
+          <article className="section-speakers__content">
+            <figure className="section-speakers__img">
+              <Speaker_19 />
+              {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
+            </figure>
+            <div className="section-speakers__description">
+              <h3 className="section-speakers__name">Eva Ferreira</h3>
+              <a
+                className="section-speakers__social"
+                href="https://twitter.com/evaferreira92"
+                target="__blank"
+              >
+                @evaferreira92
+              </a>
+            </div>
+          </article>
+        </div>
 
+        <div className="col  s12  m6  l6">
+          <article className="section-speakers__content">
+            <figure className="section-speakers__img">
+              <Speaker_20 />
+              {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
+            </figure>
+            <div className="section-speakers__description">
+              <h3 className="section-speakers__name">Juan Herrera</h3>
+              <a
+                className="section-speakers__social"
+                href="https://twitter.com/jdjuan"
+                target="__blank"
+              >
+                @jdjuan
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col  s12  m6  l6">
+          <article className="section-speakers__content">
+            <figure className="section-speakers__img">
+              <Speaker_21 />
+              {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
+            </figure>
+            <div className="section-speakers__description">
+              <h3 className="section-speakers__name">Jerome Hardaway</h3>
+              <a
+                className="section-speakers__social"
+                href="https://twitter.com/JeromeHardaway"
+                target="__blank"
+              >
+                @JeromeHardaway
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div className="col  s12  m6  l6">
+          <article className="section-speakers__content">
+            <figure className="section-speakers__img">
+              <Speaker_22 />
+              {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
+            </figure>
+            <div className="section-speakers__description">
+              <h3 className="section-speakers__name">
+                Jessica Lord
+              </h3>
+              <a
+                className="section-speakers__social"
+                href="https://twitter.com/jllord"
+                target="__blank"
+              >
+                @jllord
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col  s12  m6  l6">
+          <article className="section-speakers__content">
+            <figure className="section-speakers__img">
+              <Speaker_23 />
+              {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
+            </figure>
+            <div className="section-speakers__description">
+              <h3 className="section-speakers__name">Bryan Hughes</h3>
+              <a
+                className="section-speakers__social"
+                href="https://twitter.com/nebrius"
+                target="__blank"
+              >
+                @nebrius
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
     </div>
   </section>
 );
