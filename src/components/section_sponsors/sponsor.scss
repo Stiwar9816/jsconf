@@ -12,6 +12,19 @@
   background-color: var(--v-thirdColor);
   padding-bottom: 100px;
   padding-top: 120px;
+
+  // ARROW DOWN
+  .btn-next-section{
+    position: relative;
+    bottom: -50px;
+    width: 50px;
+    margin: var(--gutter) 0;
+    padding: .2em;
+    background-color: var(--v-bg-menu);
+    border-radius: 5px;
+  }
+
+
   &__title {
     text-align: left;
     text-transform: uppercase;

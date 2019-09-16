@@ -3,15 +3,18 @@
   clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0 100%, 0 0);
 
 
+  // ARROW DOWN
   .btn-next-section{
     position: absolute;
-    bottom: 2%;
-    width: 60px;
+    bottom: 0;
+    width: 50px;
+    margin: var(--gutter) 0;
+    padding: .2em;
+    background-color: var(--v-bg-menu);
+    border-radius: 5px;
   }
 
   &-banner {
-    background: url(../../assets/images/banner_jsconfco_2018.jpg);
-    background-size: cover;
     position: relative;
     background: url(../../assets/images/banner_jsconfco_2018.jpg);
     background-size: cover;
@@ -98,6 +101,10 @@
       font-size: 36px;
       font-weight: var(--bold);
 
+      @media only screen and (max-width : 322px) {
+        font-size: 32px;
+      }
+
       @media only screen and (min-width : 900px) {
         font-size: 42px;
       }
@@ -112,8 +119,14 @@
     }
   }
 
-  @media only screen and (min-width : 1000px) {
-    .btn-next-section { display: none; }
-  }
+
+  // // MEDIA QUERIES FOR ARROW DOWN
+  // @media only screen and (max-width : 322px) {
+  //   .btn-next-section { display: none; }
+  // }
+
+  // @media only screen and (min-width : 1000px) {
+  //   .btn-next-section { display: none; }
+  // }
 
 }

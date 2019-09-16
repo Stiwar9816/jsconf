@@ -12,6 +12,18 @@
   padding-bottom: 30px;
   background-color: #181b46;
   background-size: cover;
+
+  // ARROW DOWN
+  .btn-next-section{
+    position: relative;
+    bottom: 0;
+    width: 50px;
+    margin: var(--gutter) 0;
+    padding: .2em;
+    background-color: var(--v-bg-menu);
+    border-radius: 5px;
+  }
+
   h2 {
     text-align: center;
     color: #e55c5b;

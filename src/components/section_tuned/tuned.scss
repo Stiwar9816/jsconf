@@ -11,6 +11,22 @@
   );
   background-color: var(--v-primaryColor);
 
+
+  // ARROW DOWN
+  .btn-next-section{
+    position: relative;
+    left: 85%;
+    bottom: 30px;
+    width: 50px;
+    // margin: var(--gutter) 0;
+    padding: .2em;
+    background-color: var(--v-bg-menu);
+    border-radius: 5px;
+    transform: rotate(180deg);
+  }
+
+
+
   // version movil - gallery oculta
   &__content-gallery {
     display: none;
