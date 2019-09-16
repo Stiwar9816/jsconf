@@ -15,8 +15,6 @@ import DavidAvellaneda from "../images/team_davidAvellaneda";
 import Catherine from "../images/team_catherine";
 import Buritica from "../images/team_buritica";
 import MarianaMendivil from "../images/team_mariana";
-import Hamilton from "../images/team-hamilton";
-import Stiwar from "../images/team-stiwar";
 
 export default class sectionTeam extends Component {
   render() {
