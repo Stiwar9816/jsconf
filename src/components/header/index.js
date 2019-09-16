@@ -21,7 +21,7 @@ const Header = () => (
       </div>
 
       <div className="content-information">
-        <p className="header-information">Bringing the Colombian JavaScript community under the roof.</p>
+        <p className="header-information">Bringing the Colombian JavaScript community under one roof.</p>
       </div>
     </div>
 

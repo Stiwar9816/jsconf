@@ -7,7 +7,7 @@ export default class SectionSponsors extends Component {
         <div className="container">
           <h2 className="section-sponsors__title">
             WANT TO BE A <br />
-            SPONSORS?
+            SPONSOR?
           </h2>
           <br />
           <br />
