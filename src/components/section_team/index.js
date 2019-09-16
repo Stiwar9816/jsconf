@@ -74,7 +74,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Liz Parody</h5>
-                  <p>Directors / Scholarship</p>
+                  <p>Directors / Scholarships</p>
                   <a
                     href="https://twitter.com/buritica"
                     target="_blank"
@@ -170,7 +170,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5>Laura Ciro</h5>
-                  <p>Scholarship</p>
+                  <p>Scholarships</p>
                   <a
                     href="https://twitter.com/ltciro"
                     target="_blank"
@@ -194,7 +194,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5> Nataly Villamor</h5>
-                  <p>Scholarship</p>
+                  <p>Scholarships</p>
 
                   <a
                     href="https://twitter.com/nathalyvillamor"
@@ -211,7 +211,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5>Jesee Cogollo</h5>
-                  <p>Directors / Scholarship</p>
+                  <p>Directors / Scholarships</p>
                   <a
                     href="https://www.twitter.com/JesseCogollo"
                     target="_blank"
@@ -326,46 +326,6 @@ export default class sectionTeam extends Component {
                     <i className="icon-twitter" />
                   </a>
                 </div>
-              </article>
-            </div>
-
-            <div className="col s12 m6 l6">
-              <article className="section-team__content">
-                <figure className="section-speakers__img">
-                  <Stiwar />{" "}
-                </figure>
-                <div className="section-speakers__description">
-                  <h5>Stiwar Asprilla</h5>
-                  <p>Web Team</p>
-                  <a
-                    href="https://twitter.com/AsprillaStiwar"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-twitter" />
-                  </a>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <div className="row ">
-            <div className="col s12 m6 l6">
-              <article className="section-team__content">
-                <div className="section-speakers__description">
-                  <h5>Hamilton Galeano</h5>
-                  <p>Web Team</p>
-                  <a
-                    href="https://twitter.com/MiltonCode"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-twitter" />
-                  </a>
-                </div>
-                <figure className="section-speakers__img">
-                  <Hamilton />{" "}
-                </figure>
               </article>
             </div>
           </div>

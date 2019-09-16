@@ -10,8 +10,7 @@ export default class Venue extends Component {
       <div className="Venue-component page-section" id="venue">
         <div className="Venue-left">
           <h2 className="Venue-title">VENUE</h2>
-          <p>Hotels we</p>
-          <p>recommend</p>
+          <p>We recommend</p>
           <div className="Venue-hotels10">
             <a href="https://www.diezhotel.com/" target="__blank">
               <Hotel />
@@ -37,7 +36,7 @@ export default class Venue extends Component {
             </a>
             <p>Complejo Ruta N</p>
             <p> Calle 67 N° 52-20</p>
-            <p>Medellin - Colombia. </p>
+            <p>Medellín - Colombia. </p>
             <p className="span-venue">
               Strategic location, whit easy access to all of{" "}
             </p>
