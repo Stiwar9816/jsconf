@@ -46,7 +46,7 @@ export default class sectionStayTuned extends Component {
 
               <div className="col s12">
                 <h2 className="section-tuned-Signup__title">STAY TUNED</h2>
-                <p>Subcribe to our newsletter to stay informed about us.</p>
+                <p>Subcribe to our newsletter to stay informed.</p>
               </div>
 
               <form>
@@ -61,7 +61,7 @@ export default class sectionStayTuned extends Component {
                       className="btn waves-effect waves-light section-tuned__btn-signup"
                       type="submit"
                     >
-                      subcribe
+                      Subcribe
                     </a>
                   </div>
                 </div>
