@@ -346,20 +346,6 @@ const SectionSpeakers = () => (
           </article>
         </div>
       </div>
-      <div className="row">
-        <div className="section-speakers__content-btn  inner-padding">
-          <a
-            className="section-speakers__btn"
-            href="https://sessionize.com/jsconf-colombia-2019"
-            target="__blank"
-            rel="noopener noreferrer"
-          >
-            submit a proposal
-          </a>
-        </div>
-
-      </div>
-      
     </div>
   </section>
 );
