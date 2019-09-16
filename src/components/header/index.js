@@ -26,7 +26,7 @@ const Header = () => (
     </div>
 
     <div className="row  header-data">
-        <p className="col  header-data__description">October <span className="underline">18th</span> & <span className="underline">19th</span> <span className="underline">Medellín</span>, Colombia
+        <p className="col  header-data__description">October <span className="underline">18</span> & <span className="underline">19</span> <span className="underline">Medellín</span>, Colombia
         </p>
       </div>
 
