@@ -5,27 +5,29 @@ export default class SectionFooter extends Component {
     return (
       <footer className="footer">
         <div className="container">
+          <div className="row">
           <div className="col s12">
             <p className="footer-copyright">
               JSConfco colombia 2019 - Created by:{" "}
               <a
-              className="underline"
+              className="underline--footer"
                 href="https://twitter.com/asprillastiwar"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-               Stiwar Asprilla
+               @AsprillaStiwar
               </a>{" "}
               -{" "}
               <a
-              className="underline"
+              className="underline--footer"
                 href="https://twitter.com/miltoncode"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Hamilton Galeano
+                @MiltonCode
               </a>
             </p>
+          </div>
           </div>
         </div>
       </footer>

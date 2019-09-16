@@ -10,6 +10,18 @@
     0% 20%
   );
   background-color: var(--v-thirdColor);
+
+   // ARROW DOWN
+   .btn-next-section{
+    position: relative;
+    bottom: 20px;
+    width: 50px;
+    // margin: var(--gutter) 0;
+    padding: .2em;
+    background-color: var(--v-bg-menu);
+    border-radius: 5px;
+  }
+
   &__title {
     padding-bottom: 40px;
     padding-top: 40px;
@@ -22,7 +34,7 @@
   &__content {
     margin-bottom: 1em;
     &.bottom {
-      min-height: 605px;
+      min-height: 400px;
       margin-bottom: 0;
     }
   }
