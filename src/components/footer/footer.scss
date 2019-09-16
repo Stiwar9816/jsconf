@@ -9,5 +9,13 @@
     font-weight: var(--regular);
     text-align: center;
     font-size: 1.125em;
+    a{
+      color:#fff;
+      font-weight: var(--regular);
+      text-decoration: underline;
+      &:hover{
+        color: var(--primaryColor);
+      }
+    }
   }
 }
