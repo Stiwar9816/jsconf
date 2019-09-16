@@ -3,14 +3,25 @@
   clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0 100%, 0 0);
 
 
+  .btn-next-section{
+    position: absolute;
+    bottom: 2%;
+    width: 60px;
+  }
+
   &-banner {
+    background: url(../../assets/images/banner_jsconfco_2018.jpg);
+    background-size: cover;
     position: relative;
     background: url(../../assets/images/banner_jsconfco_2018.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-
+    & img {
+      width: fit-content;
+      height: 100%;
+    }
     &::before {
       position: absolute;
       content: '';
@@ -25,43 +36,57 @@
     }
   }
 
-  .content-information{
+  .header-data-logo{
+    position: absolute;
     display: flex;
     justify-content: space-between;
+    max-width: 80%;
     align-items: center;
-    position: absolute;
     top: 0;
-
     .content-logo {
-      // width: 70%;
-      max-width: 380px;
-      // background-image: url(../../assets/images/LogoJSConco2019.png);
+
+
+      width: 400px;
       @media only screen and (min-width : 720px) {
-        width: 45%;
-        // max-width: 200px;
-        // max-width: 200px;
+        width: 100%;
+      }
+
+      & a {
+        display: block;
+        max-width: 350px;
       }
     }
 
-    .header-information {
-      display: none;
 
-      @media only screen and (min-width : 720px) {
-        display: block;
-        width: 45%;
-        font-size: 24px;
-        font-weight: var(--bold);
-        color: var(--p-primaryColor);
+    .content-information{
+
+      .header-information {
+        display: none;
+
+        @media only screen and (min-width : 720px) {
+          display: block;
+          max-width: 100%;
+          font-size: 24px;
+          font-weight: var(--bold);
+          color: var(--p-primaryColor);
+        }
+        @media only screen and (min-width : 1200px) {
+          min-width: 400px;
+          font-size: 32px;
+        }
       }
       @media only screen and (min-width : 1200px) {
-        font-size: 32px;
+        justify-content: initial;
       }
+
     }
+
     @media only screen and (min-width : 1200px) {
-      justify-content: initial;
+      max-width: 1000px;
     }
 
   }
+
 
   .header-data {
     position: absolute;
@@ -78,9 +103,17 @@
       }
     }
 
-    @media only screen and (min-width : 900px) {
-      top: 75%
+    @media only screen and (min-width : 720px) {
+      top: 70%;
     }
+
+    @media only screen and (min-width : 900px) {
+      // top: 75%
+    }
+  }
+
+  @media only screen and (min-width : 1000px) {
+    .btn-next-section { display: none; }
   }
 
 }

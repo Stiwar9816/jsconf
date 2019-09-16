@@ -18,7 +18,6 @@ import Speaker_16 from "../images/speaker_16";
 import Speaker_17 from "../images/speaker_17";
 import Speaker_18 from "../images/speaker_18";
 
-
 import "./speakers.scss";
 
 const SectionSpeakers = () => (
@@ -207,7 +206,6 @@ const SectionSpeakers = () => (
             </figure>
             <div className="section-speakers__description">
               <h3 className="section-speakers__name">Sergio Quintero M.</h3>
-
             </div>
           </article>
         </div>
@@ -221,7 +219,9 @@ const SectionSpeakers = () => (
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
-              <h3 className="section-speakers__name">Daniel Estiven Rico Posada</h3>
+              <h3 className="section-speakers__name">
+                Daniel Estiven Rico Posada
+              </h3>
               <a
                 className="section-speakers__social"
                 href="https://twitter.com/Danielest_rp"
@@ -345,7 +345,6 @@ const SectionSpeakers = () => (
             </div>
           </article>
         </div>
-
       </div>
       <div className="row">
         <div className="section-speakers__content-btn  inner-padding">
@@ -358,7 +357,9 @@ const SectionSpeakers = () => (
             submit a proposal
           </a>
         </div>
+
       </div>
+      
     </div>
   </section>
 );
