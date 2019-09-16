@@ -1,5 +1,17 @@
 .section-speakers{
 
+  // ARROW DOWN
+  .btn-next-section{
+    position: relative;
+    bottom: 0;
+    width: 50px;
+    margin: var(--gutter) 0;
+    padding: .2em;
+    background-color: var(--v-bg-menu);
+    border-radius: 5px;
+  }
+
+
   &__title{
     text-align: center;
     text-transform: uppercase;
