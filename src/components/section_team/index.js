@@ -336,7 +336,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Stiwar Asprilla</h5>
-                  <p>Team Web</p>
+                  <p>Web Team</p>
                   <a
                     href="https://twitter.com/AsprillaStiwar"
                     target="_blank"
@@ -354,7 +354,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5>Hamilton Galeano</h5>
-                  <p>Team Web</p>
+                  <p>Web Team</p>
                   <a
                     href="https://twitter.com/MiltonCode"
                     target="_blank"
