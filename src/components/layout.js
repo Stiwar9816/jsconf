@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
     render={() => (
       <>
         <Header />
-        <main className="main">{children}</main>
+        <div>{children}</div>
         <Footer />
       </>
     )}
