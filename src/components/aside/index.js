@@ -30,9 +30,9 @@ class Asidebar extends React.Component {
               <li className="main-menu__item">
                 <a className="main-menu__link" href="#team">team</a>
               </li>
-              <li className="main-menu__item">
+              {/* <li className="main-menu__item">
                 <a className="main-menu__link" href="#schedule">schedule</a>
-              </li>
+              </li> */}
               <li className="main-menu__item">
                 <a className="main-menu__link" href="#tuned">stay tuned</a>
               </li>
