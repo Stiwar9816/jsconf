@@ -31,7 +31,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Juan Pablo Buritica</h5>
-                  <p> CM / Finance</p>
+                  <p> MC / Finance</p>
                   <a
                     href="https://twitter.com/buritica"
                     target="_blank"
