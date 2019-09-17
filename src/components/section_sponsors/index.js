@@ -20,7 +20,7 @@ const SectionSponsors = () => (
         <a
           className="section-sponsors-view__card"
           href="https://github.com/"
-          target="_blank"
+          target="__blank"
           rel="noopener noreferrer"
         >
           <GitHub />
@@ -35,7 +35,7 @@ const SectionSponsors = () => (
           <a
             className="section-sponsors-view__card getonboard"
             href="https://www.getonbrd.com"
-            target="_blank"
+            target="__blank"
             rel="noopener noreferrer"
           >
             <GetOnBoard />
@@ -45,7 +45,7 @@ const SectionSponsors = () => (
           <a
             className="section-sponsors-view__card "
             href="https://uruit.com/"
-            target="_blank"
+            target="__blank"
             rel="noopener noreferrer"
           >
             <UruiT />
@@ -60,7 +60,7 @@ const SectionSponsors = () => (
           <a
             className="section-sponsors-view__card prodigious"
             href="https://www.prodigious.com/"
-            target="_blank"
+            target="__blank"
             rel="noopener noreferrer"
           >
             <Prodigious />
@@ -74,7 +74,7 @@ const SectionSponsors = () => (
           <a
             className="section-sponsors-view__card"
             href="https://www.elastic.co/es/"
-            target="_blank"
+            target="__blank"
             rel="noopener noreferrer"
           >
             <Elastic />
@@ -82,7 +82,7 @@ const SectionSponsors = () => (
           <a
             className="section-sponsors-view__card"
             href="https://cloudinary.com/"
-            target="_blank"
+            target="__blank"
             rel="noopener noreferrer"
           >
             <Cloudinary />
