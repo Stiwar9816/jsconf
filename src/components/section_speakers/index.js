@@ -65,7 +65,7 @@ const SectionSpeakers = () => (
                 href="https://twitter.com/mayrascript"
                 target="__blank"
               >
-                @NativeGeekGirl
+                @mayrascript
               </a>
             </div>
           </article>
@@ -278,7 +278,7 @@ const SectionSpeakers = () => (
               <h3 className="section-speakers__name">Jennifer Wong</h3>
               <a
                 className="section-speakers__social"
-                href="https://twitter.com/mybluewristban"
+                href="https://twitter.com/mybluewristband"
                 target="__blank"
               >
                 @mybluewristband
