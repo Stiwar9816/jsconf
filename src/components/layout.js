@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import Header from "./header";
 import Footer from "./footer";
-import Asidebar from './aside'
-
 // import SEO from './seo'
 
 import "./layout.scss";
@@ -23,8 +21,7 @@ const Layout = ({ children }) => (
     render={() => (
       <>
         <Header />
-        <Asidebar />
-          <main className="main">{children}</main>
+        <div>{children}</div>
         <Footer />
       </>
     )}
