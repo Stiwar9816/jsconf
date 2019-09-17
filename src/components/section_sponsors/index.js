@@ -26,7 +26,7 @@ const SectionSponsors = () => (
           </a>
           <a
             className="section-sponsors-view__card"
-            href="https://github.com/"
+            href="https://www.rutanmedellin.org/es/"
             target="__blank"
             rel="noopener noreferrer"
           >
