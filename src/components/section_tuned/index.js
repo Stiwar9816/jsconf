@@ -61,7 +61,7 @@ export default class sectionStayTuned extends Component {
                       className="btn waves-effect waves-light section-tuned__btn-signup"
                       type="submit"
                     >
-                      Subcribe
+                      Subscribe
                     </a>
                   </div>
                 </div>
