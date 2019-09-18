@@ -238,10 +238,10 @@ const SectionSpeakers = () => (
               </h3>
               <a
                 className="section-speakers__social"
-                href="https://twitter.com/Danielest_rp"
+                href="https://twitter.com/dericop_"
                 target="__blank"
               >
-                @Danielest_rp
+                @dericop_
               </a>
             </div>
           </article>
