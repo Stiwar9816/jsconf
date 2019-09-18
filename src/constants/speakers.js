@@ -35,8 +35,8 @@ export const speakers = {
   },
   mayra:{
     name:'Mayra Alejandra Rodriguez Maldonado',
-    twitterName: '@NativeGeekGirl',
-    twitterUrl: 'https://twitter.com/NativeGeekGir',
+    twitterName: '@mayrascript',
+    twitterUrl: 'https://twitter.com/mayrascript',
     figure:Mayra,
     talkName:'Como crear tu store personalizado con  RxJS',
     description:'Con frecuencia usamos la administración de una store con NgRx en Angular, pero como todas las bibliotecas, a veces necesitamos diferentes comportamientos o quizás algo más complejo o tal vez algo más simple, y por supuesto, quizás algo más liviano. Si tu eres el tipo de desarrollador a quien le gustan las mejores prácticas, si le gusta tener en tu proyecto solo lo que necesitas y te encanta crear tupropio código personalizado, estaré encantada de mostrarte todo lo que necesitas saber para crear tu propio store con RxJs.',
@@ -84,7 +84,7 @@ export const speakers = {
   jennifer:{
     name:'Jennifer Wong',
     twitterName: '@mybluewristband',
-    twitterUrl: 'https://twitter.com/mybluewristban',
+    twitterUrl: 'https://twitter.com/mybluewristband',
     figure:Jennifer,
     talkName:'Time Is But an Illusion… in JavaScript',
     description:'Time in JavaScript is weird. But why is time so terrible in JavaScript? Why do we need libraries like Moment.js? And what exactly are Greenwich Mean Time and Coordinated Universal Time.<br/><br/>With so much to worry about timing wise: formatting, time zones, internationalization, recurrence rules, leap years, daylight savings time, and more, everyone needs HELP!<br/><br/>Let’s turn time into money by taking a look at the most popular time libraries and how we use them to solve JavaScript’s time problems. We’ll look at how JavaScript’s Date object started and what its prototype allows. We’ll wind our way through dates, times, and standards to find solutions to the weirdness.<br/><br/>Let’s kill time together talking about JavaScript time! Because we know, time heals all.'
