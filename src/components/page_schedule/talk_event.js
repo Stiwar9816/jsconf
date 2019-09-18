@@ -22,7 +22,7 @@ export default function TalkEvent(props) {
             <h3 className="page-activity">{props.talkName}</h3>
             <h4 className="page-speaker-name">{props.name}</h4>
             <p className="page-information" dangerouslySetInnerHTML={{ __html: props.description }} />
-            <button onClick={ReadMore.readMore} id="myBtn">Read more</button>
+            {/* <button onClick={ReadMore.readMore} id="myBtn">Read more</button> */}
             <div className="page-speaker-social">
               <a href={props.twitterUrl} target="__blank" rel="noopener noreferrer">{props.twitterName}</a>
             </div>
