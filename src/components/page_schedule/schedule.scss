@@ -96,7 +96,7 @@
     }
 
     &:nth-child(even) .page-card__time {
-      left: -50%;
+      left: -65%;
       top: 50%;
       transform: translate(-50%, -50%);
     }
@@ -127,7 +127,7 @@
       left: 50%;
       top: -2%;
       transform: translate(-50%, -50%);
-      padding-left: var(--gutter);
+      padding-left: 20px;
       padding-right: var(--gutter);
       border: 4px solid var(--primaryColor);
       background-color: #fff;
