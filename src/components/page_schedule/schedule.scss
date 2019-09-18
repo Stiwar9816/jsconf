@@ -22,6 +22,9 @@
       background-color: var(--secondColor);
       font-weight: var(--bold);
       text-transform: uppercase;
+      &:hover{
+        color: var(--primaryColor);
+      }
     }
   }
 
