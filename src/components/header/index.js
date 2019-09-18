@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo2019 from '../images/Logo2019'
+import { Link } from "gatsby";
+
 import './header.scss'
 
 const Header = () => (
@@ -7,14 +9,12 @@ const Header = () => (
   <header className="header page-section"  id="top">
 
     <div className="header-banner">
-      <img/>
     </div>
 
     <div className="container">
 
     <div className="row header-data-logo">
       <div className="col content-logo">
-        {/* <img src="../../assets/images/LogoJSConco2019.png" alt="Logo JSConf colombia"/> */}
         <a href="/">
           <Logo2019/>
         </a>

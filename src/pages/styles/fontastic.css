@@ -50,6 +50,9 @@
 .icon-instagram:before {
   content: "\64";
 }
-.icon-close:before {
+.icon-schedule:before {
   content: "\65";
+}
+.icon-close:before {
+  content: "\66";
 }

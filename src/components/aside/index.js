@@ -6,6 +6,17 @@ class Asidebar extends React.Component {
   render() {
     return (
       <aside className="aside">
+
+
+      <div className="container">
+        <div class="content-btn-schedule">
+          <Link className="btn-schedule" to="/schedule">
+            <i class="icon-schedule"></i>
+          </Link>
+        </div>
+      </div>
+
+
         <div className="sidebar" id="sidebar">
           <div className="menu-nav">
             <ul className="main-menu" id="main-menu">
