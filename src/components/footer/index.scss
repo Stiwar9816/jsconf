@@ -1,0 +1,31 @@
+.section-footer__background {
+  background-color: #181b46;
+  background-position: bottom;
+  min-height: 300px;
+  display: flex;
+  align-items: flex-end; 
+  // margin-bottom: -45px;
+  clip-path: polygon(21% 65%, 100% 65%, 100% 100%, 0% 100%);
+  justify-content: center;
+  position: absolute;
+width: -moz-available;
+  p {
+    color: #e1e1e1;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+    // margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .section-footer__background {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 1.4;
+    p {
+      margin-left: 10px;
+      font-size: 1.125em;
+    }
+  }
+}

@@ -273,7 +273,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>
-                    Jenny Mazo
+                    Jeny Mazo
                   </h5>
                   <p>Comms</p>
                   <a

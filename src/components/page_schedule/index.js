@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Day1 from './day1'
 import Day2 from './day2'
 import "./schedule.scss";
