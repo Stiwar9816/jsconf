@@ -62,10 +62,10 @@ const SectionSpeakers = () => (
               </h3>
               <a
                 className="section-speakers__social"
-                href="https://twitter.com/NativeGeekGir"
+                href="https://twitter.com/mayrascript"
                 target="__blank"
               >
-                @NativeGeekGirl
+                @mayrascript
               </a>
             </div>
           </article>
@@ -278,7 +278,7 @@ const SectionSpeakers = () => (
               <h3 className="section-speakers__name">Jennifer Wong</h3>
               <a
                 className="section-speakers__social"
-                href="https://twitter.com/mybluewristban"
+                href="https://twitter.com/mybluewristband"
                 target="__blank"
               >
                 @mybluewristband
@@ -408,21 +408,20 @@ const SectionSpeakers = () => (
             </div>
           </article>
         </div>
-
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_20 />
+              <Speaker_23 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
-              <h3 className="section-speakers__name">Juan Herrera</h3>
+              <h3 className="section-speakers__name">Bryan Hughes</h3>
               <a
                 className="section-speakers__social"
-                href="https://twitter.com/jdjuan"
+                href="https://twitter.com/nebrius"
                 target="__blank"
               >
-                @jdjuan
+                @nebrius
               </a>
             </div>
           </article>
@@ -464,26 +463,6 @@ const SectionSpeakers = () => (
                 target="__blank"
               >
                 @jllord
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col  s12  m6  l6">
-          <article className="section-speakers__content">
-            <figure className="section-speakers__img">
-              <Speaker_23 />
-              {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
-            </figure>
-            <div className="section-speakers__description">
-              <h3 className="section-speakers__name">Bryan Hughes</h3>
-              <a
-                className="section-speakers__social"
-                href="https://twitter.com/nebrius"
-                target="__blank"
-              >
-                @nebrius
               </a>
             </div>
           </article>

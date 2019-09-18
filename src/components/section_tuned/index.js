@@ -46,7 +46,7 @@ export default class sectionStayTuned extends Component {
 
               <div className="col s12">
                 <h2 className="section-tuned-Signup__title">STAY TUNED</h2>
-                <p>Subcribe to our newsletter to stay informed.</p>
+                <p>Subscribe to our newsletter to stay informed.</p>
               </div>
 
               <form>
@@ -61,7 +61,7 @@ export default class sectionStayTuned extends Component {
                       className="btn waves-effect waves-light section-tuned__btn-signup"
                       type="submit"
                     >
-                      Subcribe
+                      Subscribe
                     </a>
                   </div>
                 </div>
@@ -87,29 +87,6 @@ export default class sectionStayTuned extends Component {
                   </div>
                 </div>
               </div>
-
-        <div class="btn-next-section">
-          <a href="#top">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 30">
-              <g id="Layer_2" data-name="Layer 2">
-                <g id="Layer_1-2" data-name="Layer 1">
-                  <rect class="cls-1" width="5" height="5"/>
-                  <rect class="cls-1" x="50" width="5" height="5"/>
-                  <rect class="cls-1" x="5" y="5" width="5" height="5"/>
-                  <rect class="cls-1" x="45" y="5" width="5" height="5"/>
-                  <rect class="cls-1" x="10" y="10" width="5" height="5"/>
-                  <rect class="cls-1" x="40" y="10" width="5" height="5"/>
-                  <rect class="cls-1" x="15" y="15" width="5" height="5"/>
-                  <rect class="cls-1" x="35" y="15" width="5" height="5"/>
-                  <rect class="cls-1" x="20" y="20" width="5" height="5"/>
-                  <rect class="cls-1" x="30" y="20" width="5" height="5"/>
-                  <rect class="cls-1" x="25" y="25" width="5" height="5"/>
-                </g>
-              </g>
-            </svg>
-          </a>
-        </div>
-
 
           </div>
       </section>
