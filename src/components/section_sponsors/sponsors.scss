@@ -11,14 +11,14 @@
   );
   background-color: var(--v-thirdColor);
 
-   // ARROW DOWN
-   .btn-next-section{
+  // ARROW DOWN
+  .btn-next-section {
     display: none;
     position: relative;
     bottom: 20px;
     width: 50px;
     // margin: var(--gutter) 0;
-    padding: .2em;
+    padding: 0.2em;
     background-color: var(--v-bg-menu);
     border-radius: 5px;
   }
@@ -36,6 +36,11 @@
     margin-bottom: 1em;
     &.bottom {
       min-height: 400px;
+      margin-bottom: 0;
+    }
+    &.medium {
+      min-height: 300px;
+      max-width: 250px;
       margin-bottom: 0;
     }
   }
@@ -75,8 +80,6 @@
   .small {
     width: 50%;
     margin: auto;
-
-
   }
 
   &__medal {
@@ -121,11 +124,11 @@
           border-radius: 20px;
           text-align: center;
         }
-        &.nearform {
-          .gatsby-image-wrapper {
-            width: 200px;
-          }
-        }
+        // &.nearform {
+        //   .gatsby-image-wrapper {
+        //     width: 200px;
+        //   }
+        // }
         .gatsby-image-wrapper {
           width: 150px;
           max-height: 150px;
@@ -157,8 +160,11 @@
     width: fit-content;
   }
   .gold {
-    color: #000;
-    width: fit-content;
+    color: #fff;
+    font-weight: var(--regular);
+    font-size: 25px;
+    // width: fit-content;
+    width: 90px;
   }
 
   .supporters {
@@ -239,11 +245,16 @@
       width: fit-content;
     }
     .supporters,
-    .silver,
-    .gold {
+    .silver {
       color: #000;
-      width: 200px;
+      width: 108px;
       margin: 40px 0 10px;
+    }
+    .gold {
+      color: #fff;
+      width: 108px;
+      margin: 40px 0 10px;
+      margin-left: 60px;
     }
   }
 }

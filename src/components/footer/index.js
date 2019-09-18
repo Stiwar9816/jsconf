@@ -8,7 +8,7 @@ export default class SectionFooter extends Component {
           <div className="row">
           <div className="col s12">
             <p className="footer-copyright">
-              JSConfco colombia 2019 - Created by:{" "}
+              JSConf colombia 2019 - This website was built with love from quibdo, colombia by:{" "}
               <a
               className="underline--footer"
                 href="https://twitter.com/asprillastiwar"

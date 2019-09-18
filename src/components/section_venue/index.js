@@ -18,7 +18,7 @@ export default class Venue extends Component {
           <h2 className="section-venue__title  inner-padding">venue</h2>
 
           <p className="section-venue__description">
-            Strategic location, whit easy access to all of the city's points of interest.
+            Strategic location, with easy access to all of the city's points of interest.
           </p>
         </div>
       </div>
