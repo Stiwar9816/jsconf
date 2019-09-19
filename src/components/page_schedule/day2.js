@@ -56,6 +56,10 @@ export default function Day1() {
         time="03:05pm"
         {...speakers.colin}
       />
+      <TalkEvent
+        time="03:40pm"
+        {...speakers.jessica}
+      />
       <SingleEvent
         time="04:15pm"
         activity="break"
@@ -64,7 +68,18 @@ export default function Day1() {
         time="04:35pm"
         {...speakers.luis_villalobos}
       />
-
+      <TalkEvent
+        time="04:55pm"
+        {...speakers.bryan}
+      />
+      <TalkEvent
+        time="05:30pm"
+        {...speakers.eva}
+      />
+      <SingleEvent
+        time="05:00pm"
+        activity="Closing"
+      />
 
     </ul>
   )

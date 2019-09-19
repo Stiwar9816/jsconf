@@ -21,16 +21,20 @@ export default function Day1() {
         activity="Show"
       />
       <TalkEvent
+        time="10:05am"
+        {...speakers.constanza}
+      />
+      <TalkEvent
         time="10:40am"
         {...speakers.sergio}
       />
-      <SingleEvent
-        time="11:00am"
-        activity="Break"
-      />
       <TalkEvent
-        time="11:20am"
+        time="11:00am"
         {...speakers.luis_alejandro}
+      />
+      <SingleEvent
+        time="11:35am"
+        activity="Break"
       />
       <TalkEvent
         time="11:55pm"
@@ -40,21 +44,25 @@ export default function Day1() {
         time="12:30pm"
         {...speakers.irina}
       />
-      <SingleEvent
-        time="01:15pm"
-        activity="lunch"
-      />
       <TalkEvent
-        time="02:20pm"
+        time="01:05pm"
         {...speakers.melina}
       />
       <TalkEvent
-        time="02:40pm"
+        time="01:25pm"
         {...speakers.santiago}
+      />
+      <SingleEvent
+        time="02:00pm"
+        activity="lunch"
       />
       <TalkEvent
         time="03:15pm"
         {...speakers.anton}
+      />
+      <TalkEvent
+        time="03:50pm"
+        {...speakers.vanessa}
       />
       <SingleEvent
         time="04:25pm"
@@ -70,9 +78,8 @@ export default function Day1() {
       />
       <SingleEvent
         time="05:55pm"
-        activity="closing"
+        activity="Closing"
       />
-
     </ul>
   )
 }
