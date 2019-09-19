@@ -37,6 +37,7 @@ class PageSchedule extends React.Component {
         </div>
       </section>
     );
+
   }
 }
 

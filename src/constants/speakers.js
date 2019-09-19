@@ -1,4 +1,4 @@
-// import Vanessa from '../components/images/speaker_1'
+import Vanessa from '../components/images/speaker_1'
 import Mayra from '../components/images/speaker_2'
 import Alejandro from '../components/images/speaker_3'
 import Colin from '../components/images/speaker_4'
@@ -15,6 +15,11 @@ import Irina from '../components/images/speaker_14'
 import Kate from '../components/images/speaker_15'
 import Luis_villalobos from '../components/images/speaker_16'
 import Luis_vega from '../components/images/speaker_17'
+import Eva from '../components/images/speaker_19'
+import Constanza from '../components/images/co_constanza'
+import Jessica from '../components/images/speaker_22'
+import Bryan from '../components/images/nebrius'
+
 
 export const speakers = {
   sergio:{
@@ -23,7 +28,7 @@ export const speakers = {
     // twitterUrl: '',
     figure: Sergio,
     talkName:'Firewall del lado del cliente; controlado por el host',
-    description:'Nuevas técnicas de hacking a través de inyección de código en recursos javascript que permiten obtener datos como tarjetas de crédito,<span id="dots">...</span><span id="more"> contraseñas y demás información importante para el cliente según el contexto. <br/><br/>¿Qué medidas de seguridad tomar a la hora de proteger los datos del lado del cliente?<br/><br/>Muchas veces la información llega a terceros maliciosos primero antes de llegar al host, recordemos el caso de los 380.000 usuarios afectados por ataque reciente a la British Airways, explicare como se realizo este ataque y veremos algunas formas de protegernos como usar formularios de terceros, escuchar todas las conexiones salientes del navegador por medio de javascript; tanto las xhr como fetch, cómo usar iframes para aumentar la seguridad en conexiones salientes. se mencionaran brevemente algunas herramientas de codigo abierto como xhook.</span>'
+    description:'Nuevas técnicas de hacking a través de inyección de código en recursos javascript que permiten obtener datos como tarjetas de crédito,<span class="fulltext" id="more-1"> contraseñas y demás información importante para el cliente según el contexto. <br/><br/>¿Qué medidas de seguridad tomar a la hora de proteger los datos del lado del cliente?<br/><br/>Muchas veces la información llega a terceros maliciosos primero antes de llegar al host, recordemos el caso de los 380.000 usuarios afectados por ataque reciente a la British Airways, explicare como se realizo este ataque y veremos algunas formas de protegernos como usar formularios de terceros, escuchar todas las conexiones salientes del navegador por medio de javascript; tanto las xhr como fetch, cómo usar iframes para aumentar la seguridad en conexiones salientes. se mencionaran brevemente algunas herramientas de codigo abierto como xhook.</span>'
   },
   luis_alejandro:{
     name:'Luis Alejandro Vega',
@@ -144,5 +149,46 @@ export const speakers = {
     figure:Luis_villalobos,
     talkName:'Desarrollo de interfaces modernas de usuario usando un \"viejo\" modelo matemático computacional',
     description:'Crear interfaces de usuario es difícil y duro, especialmente cuando no se diseña o especifica su flujo, por ejemplo, ¿Qué pasaría si un usuario hace clic a un botón y en algún punto ese usuario deja de tener conexión de internet? O al cargar una página, se necesite consultar ciertos datos, esperar a que estos se resuelvan para luego mostrar dichos datos en pantalla, pero resulta que parte de esos datos llaman otra acción para mostrar un modal, pues, este tipo de comportamientos son difíciles de implementar en especial si sólo agregamos un montón de condicionales, switches o hacemos la toma de decisiones en un componentDidMount y manipulando solo el state dentro de un componente, incluso si usamos herramientas como Redux.<br/><br/>Existe una forma más estructurada y óptima de desarrollar flujos de interfaces de usuario para mostrar las vistas o los componentes que queremos que vean los usuarios sin importar los datos u otros factores usando un modelo matemático computacional, las máquinas de estado finitas o statecharts.'
+  },
+  constanza:{
+    name:'Constanza  Yáñez Calderón',
+    twitterName: '@co_constanza',
+    twitterUrl: 'https://twitter.com/co_constanza',
+    figure:Constanza,
+    talkName:'About life, robots and cats!',
+    description:'When I was a child I dreamt a lot about creating robots that helped me in my daily life, like tidying up my bedroom. That was just a dream till I grow up and found out that there is something called home automation. So I decided to build Sasha, my cats pet sitter, that helps me by feeding my cats when I have to get home a little bit late. Sasha changed my life and my cats are stressless because they can eat their meal at the right time.<br></br>In this talk, I will share my experience on using JavaScript to build Sasha and will walkthrough its features. Last, I ll talk about other possible use cases and the potential of home automation with JavaScript.'
+  },
+  vanessa:{
+    name:'Vanessa Aristizabal',
+    twitterName: '@vanessamarely',
+    twitterUrl: 'https://twitter.com/vanessamarely',
+    figure:Vanessa,
+    talkName:'Contando una historia',
+    description:'Descripción<b></b>Tenemos muchas formas de contar historias y con la multimedia se nos da un medio más para narrarlas y es el objetivo de esta charla, con ella  pretendo enseñar un medio que nos puede servir para transmitir la información, enseñar y a la vez aprender de cómo crear una historia, usando técnicas, e incluso librerías que nos pueden ser de ayuda, para  con código, gráficos, imágenes y narrativa, relatarles la historia del mundo mágico de JavaScript y cómo podemos usar lo aprendido para narrar muchos mundos más.<b></b>Abstract<b></b>En la actualidad existen muchos medios multimedia para contar historias, aunque a veces no se nos cuenta que la Web es uno de los mejores medios para hacer esta transmisión de información. JavaScript nos ha permitido hacer increíbles cosas en la Web y desde una página o Web App más sencilla hasta las complejas, en ellas se cuentan historias, pero no solemos conocer las técnicas para la transmisión correcta del mensaje. Incluso desde nuestro propio idioma nativo no sabemos cual es la mejor forma de comunicarnos o darnos a entender.<b></b>Cuando leemos un cómic, por medio de imágenes se nos transmite un mensaje y a veces desearíamos que el código fuera como estas historietas que hacen tan placenteros y amenos nuestros días, pero quién dice que el código no es ameno y placentero para los desarrolladores? Y qué tal si lo hacemos agradable para todos. Existe una librería llamada comic.js, que integrada con otras librerías nos podrían permitir crear un cómic, pero la idea no es enseñar a usar una librería más, incluso por UX (experiencia de usuario), existe una técnica llamada Storyboard  con la cual creamos una historieta de nuestros usuarios para tener en cuenta todos los aspectos necesarios que se requieran para usar un determinado producto, aunque el fin último de esta charla no es contarte cómo hacer un Storyboard o un cómic.<b></b>En esta charla quiero contarles una historia, no será la de Alicia en el mundo mágico de las maravillas, pero sí la historia de mundo mágico de JS, quiero mostrar cómo usando una herramienta multimedia como la Web, podemos usar la narrativa y el código y con estas armas poderosas podemos contar historias, en este caso de JS como un medio de aprendizaje para todos. El objetivo de esta charla es mostrar una forma de aprendizaje dinámica integrando código, gráficos, imágenes y narrativa, y algunas técnicas de transmisión de información y así podamos aprender cómo contar una historia de nuestro amado código, cómo contar una historia de nuestro querido JavaScript y es posible que termines con la idea de querer crear miles de historias de muchas tecnologías con lo aprendido.<b></b>'
+  },
+  jessica:{
+    name:'Jessica Lord',
+    twitterName: '@jllord',
+    twitterUrl: 'https://twitter.com/jllord',
+    figure:Jessica,
+    talkName:'Building up the Electron Project',
+    description:'This is a talk about how Electron went from atom-shell, a dependency of the text editor Atom with no plans of its own, to the widely adopted desktop framework running many of your favorite applications. <br></br> I ll share the process of getting internal buy-in for the project and getting the team started. I ll also talk about the importance of developer experience in the project. This includes technical decisions on the tooling to educate and support developers from different parts of the stack, create maintainable code for a small team, and excite a community around sharing their work.<br></br>Electron is initial unplanned position actually worked to its advantage after the team took shape and many of the experiences shared in this talk can be applied to the project you find yourself advocating for now (or later).'
+  },
+  bryan:{
+    name:'Bryan Hughes',
+    twitterName: '@nebrius',
+    twitterUrl: 'https://twitter.com/nebrius',
+    figure:Bryan,
+    talkName:'“Finding your inner artist” or “Feeding your inner artist.”',
+    description:'tbd'
+  },
+  eva:{
+    name:'Eva Ferreiras',
+    twitterName: '@evaferreira92',
+    twitterUrl: 'https://twitter.com/evaferreira92',
+    figure:Bryan,
+    talkName:'Oda a la década++',
+    description:'Había una vez navegadores sin inspector de elementos, CSS sin border-radius, JavaScript sin arrow functions. Aunque un mundo sin Flexbox ni Templete Literals suene aterrador los invito a reflexionar sobre cuál es realmente la época más oscura para desarrolladores Front-end.<br></br>Preguntémonos si oscuros eran los tiempos cuando nos preocupaba border-radius o si en realidad deberíamos preocuparnos por los tiempos actuales, donde una simple landing necesita 800kb de JavaScript para visualizarse (no, no exagero).'
   }
+
 }
