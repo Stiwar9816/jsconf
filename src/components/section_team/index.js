@@ -31,7 +31,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Juan Pablo Buritica</h5>
-                  <p> co-organizer</p>
+                  <p> staff</p>
                   <a
                     href="https://twitter.com/buritica"
                     target="_blank"
@@ -47,7 +47,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5> Juliana Gomez</h5>
-                  <p> co-organizer</p>
+                  <p> directors</p>
 
                   <a
                     href="https://twitter.com/gmzjuliana"
@@ -72,7 +72,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Liz Parody</h5>
-                  <p>co-organizer</p>
+                  <p>directors</p>
                   <a
                     href="https://twitter.com/buritica"
                     target="_blank"
@@ -88,7 +88,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5>Julian Duque</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/buritica"
                     target="_blank"
@@ -112,7 +112,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Catherine Lopez</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/LopezCatherine"
                     target="_blank"
@@ -128,7 +128,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5> Adrian Estrada</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/edsadr"
                     target="_blank"
@@ -152,7 +152,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5> Maria Velandia</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/manvedu"
                     target="_blank"
@@ -168,7 +168,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5>Laura Ciro</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/ltciro"
                     target="_blank"
@@ -192,7 +192,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5> Nataly Villamor</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
 
                   <a
                     href="https://twitter.com/nathalyvillamor"
@@ -209,7 +209,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5>Jesee Cogollo</h5>
-                  <p>co-organizer</p>
+                  <p>directors</p>
                   <a
                     href="https://www.twitter.com/JesseCogollo"
                     target="_blank"
@@ -233,7 +233,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>David Avellaneda</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/davsket"
                     target="_blank"
@@ -249,7 +249,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5> Milena Suarez</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/milena_suarezl"
                     target="_blank"
@@ -273,7 +273,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Jeny Mazo</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/JenyMzo"
                     target="_blank"
@@ -289,7 +289,7 @@ export default class sectionTeam extends Component {
               <article className="section-team__content">
                 <div className="section-speakers__description">
                   <h5>Mariana Mendivil</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/mari_mendidu"
                     target="_blank"
@@ -313,7 +313,7 @@ export default class sectionTeam extends Component {
                 </figure>
                 <div className="section-speakers__description">
                   <h5>Jonathan Avendaño</h5>
-                  <p>co-organizer</p>
+                  <p>staff</p>
                   <a
                     href="https://twitter.com/jdavidavendano"
                     target="_blank"

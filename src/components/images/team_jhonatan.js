@@ -17,7 +17,7 @@ const Image = (props) => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "team_jhonatan.jpeg" }) {
+        placeholderImage: file(relativePath: { eq: "team_jonathan.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid
