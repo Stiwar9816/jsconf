@@ -14,19 +14,21 @@
 
 
     .pick-day{
-      margin-left: var(--gutter);
-      margin-right: var(--gutter);
-      padding: var(--gutter) calc(var(--gutter) * 2);
+      outline: none;
       cursor: pointer;
-      border: none;
-      color: var(--p-primaryColor);
       background-color: var(--secondColor);
+      padding: .8em;
+      border-radius: 5px;
+      color: var(--p-primaryColor);
+      margin: 0 10px;
+      min-width: 90px;
       font-weight: var(--bold);
       text-transform: uppercase;
-      &:hover{
+      &:hover {
         color: var(--primaryColor);
       }
     }
+
   }
 
 
