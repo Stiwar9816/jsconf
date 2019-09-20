@@ -5,6 +5,9 @@ import TalkEvent from './talk_event'
 import { speakers } from '../../constants/speakers'
 
 export default function Day1() {
+
+
+
   return (
     <ul className="page-schedule__ul">
       <h2 className="page-schedule__day">October 18</h2>
