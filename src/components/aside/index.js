@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react";
+import React from "react";
+import { Link } from "gatsby";
 import "./aside.scss";
 
 class Asidebar extends React.Component {
