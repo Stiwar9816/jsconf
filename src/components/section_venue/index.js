@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./venue.scss";
 import Hotel from "../images/diez_hotel";
 import RutaN from "../images/rutaN";
-import RutaN_Venue from "../images/rutan_venue";
+import RutaNVenue from "../images/rutan_venue";
 
 export default class Venue extends Component {
   render() {
@@ -59,7 +59,7 @@ export default class Venue extends Component {
         <div className="col s12  l8  xl8">
           <div className="section-venue__content-phote-rutan">
             <figure>
-                <RutaN_Venue />
+                <RutaNVenue />
             </figure>
           </div>
         </div>

@@ -147,7 +147,7 @@ export const speakers = {
     twitterName: '@luisvillarra',
     twitterUrl: 'https://twitter.com/luisvillarra',
     figure:Luis_villalobos,
-    talkName:'Desarrollo de interfaces modernas de usuario usando un \"viejo\" modelo matemático computacional',
+    talkName:'Desarrollo de interfaces modernas de usuario usando un "viejo" modelo matemático computacional',
     description:'Crear interfaces de usuario es difícil y duro, especialmente cuando no se diseña o especifica su flujo, por ejemplo, ¿Qué pasaría si un usuario hace clic a un botón y en algún punto ese usuario deja de tener conexión de internet? O al cargar una página, se necesite consultar ciertos datos, esperar a que estos se resuelvan para luego mostrar dichos datos en pantalla, pero resulta que parte de esos datos llaman otra acción para mostrar un modal, pues, este tipo de comportamientos son difíciles de implementar en especial si sólo agregamos un montón de condicionales, switches o hacemos la toma de decisiones en un componentDidMount y manipulando solo el state dentro de un componente, incluso si usamos herramientas como Redux.<br/><br/>Existe una forma más estructurada y óptima de desarrollar flujos de interfaces de usuario para mostrar las vistas o los componentes que queremos que vean los usuarios sin importar los datos u otros factores usando un modelo matemático computacional, las máquinas de estado finitas o statecharts.'
   },
   constanza:{
