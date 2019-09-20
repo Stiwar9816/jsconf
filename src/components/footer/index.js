@@ -33,7 +33,7 @@ export default class SectionFooter extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  @MiltonCode
+                @MiltonCode
                 </a>
               </p>
             </div>
