@@ -58,6 +58,7 @@ export default class sectionStayTuned extends Component {
                   />
                   <div className="btn-sumit">
                     <a
+                    href=""
                       className="btn waves-effect waves-light section-tuned__btn-signup"
                       type="submit"
                     >

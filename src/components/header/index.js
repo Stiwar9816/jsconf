@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo2019 from '../images/Logo2019'
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 
 import './header.scss'
 

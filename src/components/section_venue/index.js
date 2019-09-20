@@ -59,7 +59,7 @@ export default class Venue extends Component {
         <div className="col s12  l8  xl8">
           <div className="section-venue__content-phote-rutan">
             <figure>
-                <RutaN_Venue />
+                <RutaN_Venue  alt="RutaN"/>
             </figure>
           </div>
         </div>
