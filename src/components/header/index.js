@@ -15,9 +15,9 @@ const Header = () => (
 
     <div className="row header-data-logo">
       <div className="col content-logo">
-        <a href="/">
+        <Link to="/">
           <Logo2019/>
-        </a>
+        </Link>
       </div>
 
       <div className="content-information">

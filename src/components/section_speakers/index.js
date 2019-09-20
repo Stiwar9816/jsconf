@@ -1,27 +1,27 @@
 import React from "react";
-import Speaker_1 from "../images/speaker_1";
-import Speaker_2 from "../images/speaker_2";
-import Speaker_3 from "../images/speaker_3";
-import Speaker_4 from "../images/speaker_4";
-import Speaker_5 from "../images/speaker_5";
-import Speaker_6 from "../images/speaker_6";
-import Speaker_7 from "../images/speaker_7";
-import Speaker_8 from "../images/speaker_8";
-import Speaker_9 from "../images/speaker_9";
-import Speaker_10 from "../images/speaker_10";
-import Speaker_11 from "../images/speaker_11";
-import Speaker_12 from "../images/speaker_12";
-import Speaker_13 from "../images/speaker_13";
-import Speaker_14 from "../images/speaker_14";
-import Speaker_15 from "../images/speaker_15";
-import Speaker_16 from "../images/speaker_16";
-import Speaker_17 from "../images/speaker_17";
-import Speaker_18 from "../images/speaker_18";
-import Speaker_19 from "../images/speaker_19";
-import Speaker_20 from "../images/speaker_20";
-import Speaker_21 from "../images/speaker_21";
-import Speaker_22 from "../images/speaker_22";
-import Speaker_23 from "../images/speaker_23";
+import Speaker1 from "../images/speaker_1";
+import Speaker2 from "../images/speaker_2";
+import Speaker3 from "../images/speaker_3";
+import Speaker4 from "../images/speaker_4";
+import Speaker5 from "../images/speaker_5";
+import Speaker6 from "../images/speaker_6";
+import Speaker7 from "../images/speaker_7";
+import Speaker8 from "../images/speaker_8";
+import Speaker9 from "../images/speaker_9";
+import Speaker10 from "../images/speaker_10";
+import Speaker11 from "../images/speaker_11";
+import Speaker12 from "../images/speaker_12";
+import Speaker13 from "../images/speaker_13";
+import Speaker14 from "../images/speaker_14";
+import Speaker15 from "../images/speaker_15";
+import Speaker16 from "../images/speaker_16";
+import Speaker17 from "../images/speaker_17";
+import Speaker18 from "../images/speaker_18";
+import Speaker19 from "../images/speaker_19";
+// import Speaker20 from "../images/speaker_20";
+import Speaker21 from "../images/speaker_21";
+import Speaker22 from "../images/speaker_22";
+import Speaker23 from "../images/speaker_23";
 
 import "./speakers.scss";
 
@@ -34,7 +34,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6 l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_1 />
+              <Speaker1 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -53,7 +53,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_2 />
+              <Speaker2 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -76,7 +76,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_3 />
+              <Speaker3 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -95,7 +95,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_4 />
+              <Speaker4 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -116,7 +116,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_5 />
+              <Speaker5 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -135,7 +135,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_6 />
+              <Speaker6 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -156,7 +156,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_7 />
+              <Speaker7 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -175,7 +175,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_8 />
+              <Speaker8 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -196,7 +196,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_9 />
+              <Speaker9 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -215,7 +215,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_10 />
+              <Speaker10 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -229,7 +229,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_11 />
+              <Speaker11 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -250,7 +250,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_12 />
+              <Speaker12 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -271,7 +271,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_13 />
+              <Speaker13 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -290,7 +290,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_14 />
+              <Speaker14 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -311,7 +311,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_15 />
+              <Speaker15 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -330,7 +330,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_16 />
+              <Speaker16 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -351,7 +351,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_17 />
+              <Speaker17 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -370,7 +370,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_18 />
+              <Speaker18 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -393,7 +393,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_19 />
+              <Speaker19 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -411,7 +411,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_23 />
+              <Speaker23 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -431,7 +431,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_21 />
+              <Speaker21 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
@@ -450,7 +450,7 @@ const SectionSpeakers = () => (
         <div className="col  s12  m6  l6">
           <article className="section-speakers__content">
             <figure className="section-speakers__img">
-              <Speaker_22 />
+              <Speaker22 />
               {/* <img src="img/co_constanza.jpg" alt="Jerome Hardaway"> */}
             </figure>
             <div className="section-speakers__description">
