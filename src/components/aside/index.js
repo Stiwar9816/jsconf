@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "gatsby";
+import { Link } from "react";
 import "./aside.scss";
 
 class Asidebar extends React.Component {
@@ -10,9 +10,9 @@ class Asidebar extends React.Component {
 
       <div className="container">
         <div class="content-btn-schedule">
-          <a className="btn-schedule" href="/schedule">
+          <Link className="btn-schedule" to="/schedule">
             <i class="icon-schedule"></i>
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -46,9 +46,9 @@ class Asidebar extends React.Component {
                 </a>
               </li>
               <li className="main-menu__item">
-                <a className="main-menu__link" href="/schedule">
+                <Link className="main-menu__link" to="/schedule">
                   schedule
-                </a>
+                </Link>
               </li>
               <li className="main-menu__item">
                 <a className="main-menu__link" href="#tuned">
