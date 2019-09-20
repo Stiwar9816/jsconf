@@ -10,7 +10,7 @@ class Asidebar extends React.Component {
 
       <div className="container">
         <div class="content-btn-schedule">
-          <a className="btn-schedule" to="/schedule">
+          <a className="btn-schedule" href="/schedule">
             <i class="icon-schedule"></i>
           </a>
         </div>
@@ -46,7 +46,7 @@ class Asidebar extends React.Component {
                 </a>
               </li>
               <li className="main-menu__item">
-                <a className="main-menu__link" to="/schedule">
+                <a className="main-menu__link" href="/schedule">
                   schedule
                 </a>
               </li>
