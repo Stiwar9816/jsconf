@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Layout from '../components/layout'
 import ScheduleComponent from '../components/page_schedule'
 
