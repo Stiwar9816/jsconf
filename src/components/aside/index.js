@@ -10,9 +10,9 @@ class Asidebar extends React.Component {
 
       <div className="container">
         <div class="content-btn-schedule">
-          <Link className="btn-schedule" to="/schedule">
+          <a className="btn-schedule" to="/schedule">
             <i class="icon-schedule"></i>
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -46,9 +46,9 @@ class Asidebar extends React.Component {
                 </a>
               </li>
               <li className="main-menu__item">
-                <Link className="main-menu__link" to="/schedule">
+                <a className="main-menu__link" to="/schedule">
                   schedule
-                </Link>
+                </a>
               </li>
               <li className="main-menu__item">
                 <a className="main-menu__link" href="#tuned">
