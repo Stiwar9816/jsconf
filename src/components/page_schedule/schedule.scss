@@ -1,7 +1,25 @@
 .page-schedule{
 
-  #more {display: none;}
+  #text{
+    display:none;
+  }
 
+  .collapsible{
+    border: none;
+  }
+
+  .collapsible-header{
+    background-color: transparent !important;
+  }
+
+  .toggle{
+    margin: var(--gutter) 0;
+    color: var(--v-fourthColor);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+  }
 
   &__day{
     margin-bottom: var(--gutter);
