@@ -41,7 +41,7 @@ export default function Day1() {
         {...speakers.jerome}
       />
       <TalkEvent
-        time="12:15am"
+        time="12:15pm"
         {...speakers.daniel}
       />
       <SingleEvent
