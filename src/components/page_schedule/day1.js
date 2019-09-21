@@ -37,16 +37,16 @@ export default function Day1() {
         {...speakers.luis_alejandro}
       />
       <TalkEvent
-        time="11:55pm"
+        time="11:55am"
         {...speakers.mayra}
-      />
-       <SingleEvent
-        time="01:05pm"
-        activity="Lunch"
       />
       <TalkEvent
         time="12:30pm"
         {...speakers.irina}
+      />
+       <SingleEvent
+        time="01:05pm"
+        activity="Lunch"
       />
       <TalkEvent
         time="02:20pm"
