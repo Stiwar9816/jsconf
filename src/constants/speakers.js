@@ -19,6 +19,7 @@ import Eva from '../components/images/speaker_19'
 import Constanza from '../components/images/co_constanza'
 import Jessica from '../components/images/speaker_22'
 import Bryan from '../components/images/nebrius'
+import Jerome from '../components/images/speaker_21'
 
 
 export const speakers = {
@@ -189,6 +190,13 @@ export const speakers = {
     figure:Eva,
     talkName:'Oda a la década++',
     description:'Había una vez navegadores sin inspector de elementos, CSS sin border-radius, JavaScript sin arrow functions. Aunque un mundo sin Flexbox ni Templete Literals suene aterrador los invito a reflexionar sobre cuál es realmente la época más oscura para desarrolladores Front-end.<br></br>Preguntémonos si oscuros eran los tiempos cuando nos preocupaba border-radius o si en realidad deberíamos preocuparnos por los tiempos actuales, donde una simple landing necesita 800kb de JavaScript para visualizarse (no, no exagero).'
+  },
+  jerome:{
+    name:'Jerome Hardaway',
+    twitterName:'@JeromeHardaway',
+    twitterUrl:'https://twitter.com/JeromeHardaway',
+    figure:Jerome,
+    talkName:'Writing Newbie-Friendly Javascript: Building a Codebase For The You From Five Years Ago',
+    description:'tbd'
   }
-
 }
