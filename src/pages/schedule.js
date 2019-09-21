@@ -3,6 +3,8 @@ import Layout from '../components/layout'
 import ScheduleComponent from '../components/page_schedule'
 
 class Schedule extends React.Component {
+
+
   render() {
     return (
       <Layout>

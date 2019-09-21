@@ -9,7 +9,7 @@ import RutaN from "../images/sponsor_rutan";
 import "./sponsors.scss";
 
 const SectionSponsors = () => (
-  <section className="section-sponsors-view" id="sponsor">
+  <section className="section-sponsors-view" id="sponsors">
     <div className="container">
       <h2 className="section-sponsors-view__title">SPONSORS</h2>
 

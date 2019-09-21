@@ -1,24 +1,14 @@
 .page-schedule{
 
-  #text{
-    display:none;
-  }
 
-  .collapsible{
-    border: none;
-  }
-
-  .collapsible-header{
-    background-color: transparent !important;
-  }
-
-  .toggle{
+  .toggle-modal{
+    display: block;
+    text-align: center;
     margin: var(--gutter) 0;
     color: var(--v-fourthColor);
     border: none;
     background-color: transparent;
     cursor: pointer;
-
   }
 
   &__day{
@@ -79,11 +69,6 @@
       width: 25px;
       height: 25px;
       background: var(--primaryColor);
-
-      @media only screen and (min-width : 900px) {
-        top: 50%;
-        transform: translate(-50%, -50%);
-      }
     }
 
     /* linea <li> */
@@ -104,38 +89,12 @@
      top: -1px;
    }
 
-   @media only screen and (min-width : 900px) {
-    margin: 0 auto;
-    width: fit-content;
-
-    &:nth-child(even) article {
-      left: 60%;
-    }
-
-    &:nth-child(odd) article {
-      left: -60%;
-    }
-
-    &:nth-child(even) .page-card__time {
-      left: -65%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    &:nth-child(odd) .page-card__time {
-      left: 160%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-   }
-
   }
 
   /* <article> */
   .page-card{
     position: relative;
-    max-width: 700px;
+    max-width: fit-content;
     left: 50%;
     top: 0;
     transform: translate(-50%, 0);
@@ -153,7 +112,7 @@
       border: 4px solid var(--primaryColor);
       background-color: #fff;
       text-align: center;
-
+      z-index: 100;
       &-start{
         font-size: 1.125em;
         font-weight: var(--bold);
@@ -161,17 +120,14 @@
       }
     }
 
-    &__content-photo{
+    // contenedor de: foto e informacion
+    &__contentainer{
 
       // <figure>
-      .page-card__information-photo{
+      .page-card__figure-photo{
         margin: var(--gutter) auto;
-        max-width: 300px;
-        max-height: 300px;
-
-        @media only screen and (min-width : 900px) {
-          margin: 0;
-        }
+        max-width: 400px;
+        max-height: 400px
       }
 
 
@@ -184,10 +140,18 @@
     &__information-description{
       padding: var(--gutter);
       text-align: center;
+
+      [href="#lucasArag"],
+      [href="#colinIhr"],
+      [href="#bryanHug"]{
+        display:none;
+      }
     }
 
     .page-activity{
-      font-size: 1.125em;
+      padding-top: var(--gutter);
+      padding-bottom: var(--gutter);
+      font-size: 1.5em;
       color: var(--p-primaryColor);
     }
 
@@ -200,17 +164,22 @@
     .page-information{
       font-size: 1.125em;
       color: var(--p-primaryColor);
+
+      .modal-content{
+        background-color: var(--v-primaryColor);
+        padding: var(--gutter);
+      }
     }
 
     .page-speaker-social{
       display: inline-block;
       margin-top: var(--gutter);
       margin-bottom: var(--gutter);
-      border: 1px solid var(--secondColor);
+      // border: 1px solid var(--v-thirdColor);
 
       & a {
         padding: var(--gutter);
-        color: var(--secondColor);
+        color: var(--v-thirdColor);
         font-size: 1.125em;
         letter-spacing: 2px;
 
@@ -220,16 +189,8 @@
       }
     }
 
-    @media only screen and (min-width : 900px) {
-      position: relative;
-      max-width: 300px;
-      left: 0;
-      transform: translate(0, 0);
-    }
-
 
   }
-
 
   .event{
     margin: var(--guter) 0;
@@ -240,6 +201,48 @@
   }
 
 
+  @media only screen and (min-width : 1000px) {
+
+    // <article>
+    .page-card{
+
+
+      // contenedor de: foto e informacion
+      &__contentainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+
+        .page-card__photo{
+          // <figure>
+          .page-card__figure-photo{
+            margin: 0;
+            width: 350px;
+         }
+        }
+
+        .page-card__information{
+
+          .modal{
+            width: 90%;
+          }
+
+          .page-speaker-social{
+            margin-bottom: 0;
+
+            a { padding-bottom: 0;}
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
 }
+
 
 

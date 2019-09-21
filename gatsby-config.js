@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `JSConfco Colombia 2019 | October 18th & 19th, Medellín`,
-    titleShort: `JSConfco Colombia 2019`,
+    title: `JSConf Colombia 2019 | October 18th & 19th, Medellín`,
+    titleShort: `JSConf Colombia 2019`,
     description: `Bringing the Colombian JavaScript community under the roof.`,
     author: `@jsconfco`,
     // image: 'https://colombia.nodeconf.com/assets/images/social.png',
