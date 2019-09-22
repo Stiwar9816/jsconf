@@ -12,12 +12,13 @@
   }
 
   &__day{
+    margin-top: var(--gutter);
     margin-bottom: var(--gutter);
   }
 
   // ESTILOS BOTONES
   &__day-picker{
-    padding-bottom: 0;
+    padding: 0;
     text-align: center;
 
 
@@ -32,8 +33,9 @@
       min-width: 90px;
       font-weight: var(--bold);
       text-transform: uppercase;
+      transition: .4s ease;
       &:hover {
-        color: var(--primaryColor);
+        background-color: var(--v-secondColor);
       }
     }
 

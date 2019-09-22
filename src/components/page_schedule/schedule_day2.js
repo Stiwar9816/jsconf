@@ -1,5 +1,5 @@
 import React from 'react'
-import Day1 from './day1'
+// import Day1 from './day1'
 import Day2 from './day2'
 import { Link } from "gatsby"
 import "./schedule.scss";
@@ -7,13 +7,17 @@ import "./schedule.scss";
 class PageSchedule extends React.Component {
   constructor(props) {
     super(props);
-
+    this.state = {
+      day: 1
+    };
+    this.pickDay = this.pickDay.bind(this);
   }
 
   pickDay(e, day) {
     e.preventDefault();
     this.setState({ day });
   }
+
 
 
   // Mterialize - Modal
@@ -39,7 +43,9 @@ class PageSchedule extends React.Component {
               <a href="#!" className="modal-close waves-effect waves-green btn-flat">Agree</a>
             </div>
           </div>
+
           <div className="page-schedule__day-picker  inner-padding">
+
             <button className="pick-day">
               <Link to="/schedule_day1">
                   day 1
@@ -52,6 +58,8 @@ class PageSchedule extends React.Component {
             </button>
 
           </div>
+
+          <Day2 />
 
         </div>
       </section>
