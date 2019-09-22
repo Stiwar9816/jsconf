@@ -8,7 +8,7 @@ export default class SectionFooter extends Component {
           <div className="row">
             <div className="col s12">
               <p className="footer-copyright">
-                JSConf colombia 2019 -{" "}
+                JSConf Colombia 2019 -{" "}
                 <a
                   className="underline--footer"
                   href="https://jsconf.com/codeofconduct.html"
