@@ -1,3 +1,40 @@
+:root {
+  /* color palette */
+  --primaryColor : #E8B63B;
+  --secondColor : #2A00FF;
+  --thirdColor : #E55C5B;
+/*  Colores variantes */
+  --v-primaryColor : #181B22;
+  --v-secondColor : #181B46;
+  --v-thirdColor : #6E3081;
+  --v-fourthColor : #A7554A;
+  --v-bg-menu : #3e1bce94;
+/* Color de parrafo */
+  --p-primaryColor : #E1E1E1;
+
+  /* Typography weight */
+  --regular : 400;
+  --bold : 700;
+
+  --max-width: 1366px;
+  --gutter: 16px;
+
+}
+
+.inner-padding {
+  padding-top: calc(var(--gutter) * 4);
+  padding-bottom: calc(var(--gutter) * 4);
+}
+/* subrayado rojo <span> */
+.underline {
+  padding: 0 5px;
+  background-color: var(--thirdColor);
+}
+
+
+// -------------------------------------------------------------------------------------------
+
+
 .page-schedule{
 
 

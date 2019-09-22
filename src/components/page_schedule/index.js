@@ -1,6 +1,6 @@
 import React from 'react'
-import Day1 from './day1'
-import Day2 from './day2'
+// import Day1 from './day1'
+// import Day2 from './day2'
 import { Link } from "gatsby"
 import "./schedule.scss";
 
