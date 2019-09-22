@@ -7,7 +7,7 @@ module.exports = {
     // image: 'https://colombia.nodeconf.com/assets/images/social.png',
     url: 'https://jsconf.co/'
   },
-  pathPrefix: "/colombia",
+  pathPrefix: "/",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -35,5 +35,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     'gatsby-plugin-offline'
+    // 'gatsby-plugin-remove-serviceworker'
   ],
 }
