@@ -203,7 +203,7 @@ export const speakers = {
   },
   eva:{
     alias: '#evaFe',
-    name:'Eva Ferreiras',
+    name:'Eva Ferreira',
     twitterName: '@evaferreira92',
     twitterUrl: 'https://twitter.com/evaferreira92',
     figure:Eva,

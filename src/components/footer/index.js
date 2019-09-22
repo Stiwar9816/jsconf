@@ -16,8 +16,8 @@ export default class SectionFooter extends Component {
                   rel="noopener noreferrer"
                 >
                   Code of conduct
-                </a>
-                - This website was built with love from Quibdó, Colombia by:{" "}
+                </a> <br/>
+                This website was built with love from Quibdó, Colombia by:{" "}
                 <a
                   className="underline--footer"
                   href="https://twitter.com/asprillastiwar"

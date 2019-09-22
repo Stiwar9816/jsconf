@@ -4,7 +4,7 @@ module.exports = {
     titleShort: `JSConf Colombia 2019`,
     description: `Bringing the Colombian JavaScript community under the roof.`,
     author: `@jsconfco`,
-    // image: 'https://colombia.nodeconf.com/assets/images/social.png',
+   //image: 'https://colombia.nodeconf.com/assets/images/social.png',
     url: 'https://jsconf.co/'
   },
   pathPrefix: "/",
@@ -28,13 +28,13 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        // icon: `src/assets/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/LogoJSConco2019.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    'gatsby-plugin-offline'
-    // 'gatsby-plugin-remove-serviceworker'
+    //'gatsby-plugin-offline'
+    'gatsby-plugin-remove-serviceworker'
   ],
 }
