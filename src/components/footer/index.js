@@ -18,6 +18,7 @@ export default class SectionFooter extends Component {
                   Code of conduct
                 </a> <br/>
                 This website was built with love from Quibdó, Colombia by:{" "}
+                <br/>
                 <a
                   className="underline--footer"
                   href="https://twitter.com/asprillastiwar"
@@ -26,7 +27,7 @@ export default class SectionFooter extends Component {
                 >
                   @AsprillaStiwar
                 </a>{" "}
-                -{" "}
+                &{" "}
                 <a
                   className="underline--footer"
                   href="https://twitter.com/miltoncode"

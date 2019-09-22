@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `JSConf Colombia 2019`,
-        short_name: `JSConf Colombia 2019`,
+        short_name: `JSConfCO 2019`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
