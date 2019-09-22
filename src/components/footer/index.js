@@ -15,9 +15,9 @@ export default class SectionFooter extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Code of conduct -{" "}
-                </a>{" "}
-                This website was built with love from Quibdó, Colombia by:{" "}
+                  Code of conduct
+                </a>
+                - This website was built with love from Quibdó, Colombia by:{" "}
                 <a
                   className="underline--footer"
                   href="https://twitter.com/asprillastiwar"
@@ -33,7 +33,7 @@ export default class SectionFooter extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                @MiltonCode
+                  @MiltonCode
                 </a>
               </p>
             </div>
