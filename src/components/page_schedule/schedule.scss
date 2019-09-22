@@ -83,7 +83,7 @@
       text-transform: uppercase;
       transition: .4s ease;
       &:hover {
-        color: var(--v-secondColor);
+        background-color: var(--v-secondColor);
       }
       a{
         color: var(--primaryColor);
