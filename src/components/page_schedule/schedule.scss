@@ -73,17 +73,20 @@
     .pick-day{
       outline: none;
       cursor: pointer;
-      background-color: var(--v-secondColor);
+      background-color: var(--secondColor);
       padding: .8em;
       border-radius: 5px;
-      color: var(--primaryColor);
+      // color: var(--primaryColor);
       margin: 0 10px;
       min-width: 90px;
       font-weight: var(--bold);
       text-transform: uppercase;
       transition: .4s ease;
       &:hover {
-        background-color: var(--v-secondColor);
+        color: var(--v-secondColor);
+      }
+      a{
+        color: var(--primaryColor);
       }
     }
 
