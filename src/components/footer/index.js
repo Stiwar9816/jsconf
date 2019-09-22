@@ -15,7 +15,7 @@ export default class SectionFooter extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Code of conduct
+                  Code of conduct -{" "}
                 </a>{" "}
                 This website was built with love from Quibdó, Colombia by:{" "}
                 <a
