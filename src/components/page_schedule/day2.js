@@ -84,6 +84,10 @@ export default function Day1() {
         time="05:00pm"
         activity="Closing"
       />
+      <SingleEvent
+        time="07:00pm"
+        activity="After Party"
+      />
     </ul>
   )
 }

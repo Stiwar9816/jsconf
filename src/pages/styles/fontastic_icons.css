@@ -56,3 +56,9 @@
 .icon-close:before {
   content: "\66";
 }
+.icon-calendar:before {
+  content: "\67";
+}
+.icon-calendar-1:before {
+  content: "\68";
+}
