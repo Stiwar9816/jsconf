@@ -150,11 +150,11 @@
         cursor: pointer;
       }
 
-      li.active{
-        background-position-x: 0px;
-        transform: skew(264rad);
-        transition: .5s ease-in;
-        color:#fff;
+      .main-menu__item.active{
+        a {
+          color: red;
+
+        }
       }
 
       @media only screen and (min-width : 1200px) { left: 2%; }

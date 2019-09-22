@@ -18,7 +18,6 @@ import Speaker16 from "../images/speaker_16";
 import Speaker17 from "../images/speaker_17";
 import Speaker18 from "../images/speaker_18";
 import Speaker19 from "../images/speaker_19";
-// import Speaker20 from "../images/speaker_20";
 import Speaker21 from "../images/speaker_21";
 import Speaker22 from "../images/speaker_22";
 import Speaker23 from "../images/speaker_23";
@@ -26,7 +25,7 @@ import Speaker23 from "../images/speaker_23";
 import "./speakers.scss";
 
 const SectionSpeakers = () => (
-  <section className="section-speakers page-section" id="speaker">
+  <section className="section-speakers page-section" id="speakers">
     <div className="container">
       <h2 className="section-speakers__title  inner-padding">speakers</h2>
 
@@ -467,28 +466,6 @@ const SectionSpeakers = () => (
             </div>
           </article>
         </div>
-      </div>
-
-    <div class="btn-next-section">
-        <a href="#sponsor">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 30">
-            <g id="Layer_2" data-name="Layer 2">
-              <g id="Layer_1-2" data-name="Layer 1">
-                <rect class="cls-1" width="5" height="5"/>
-                <rect class="cls-1" x="50" width="5" height="5"/>
-                <rect class="cls-1" x="5" y="5" width="5" height="5"/>
-                <rect class="cls-1" x="45" y="5" width="5" height="5"/>
-                <rect class="cls-1" x="10" y="10" width="5" height="5"/>
-                <rect class="cls-1" x="40" y="10" width="5" height="5"/>
-                <rect class="cls-1" x="15" y="15" width="5" height="5"/>
-                <rect class="cls-1" x="35" y="15" width="5" height="5"/>
-                <rect class="cls-1" x="20" y="20" width="5" height="5"/>
-                <rect class="cls-1" x="30" y="20" width="5" height="5"/>
-                <rect class="cls-1" x="25" y="25" width="5" height="5"/>
-              </g>
-            </g>
-          </svg>
-        </a>
       </div>
 
     </div>
