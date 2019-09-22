@@ -8,7 +8,7 @@ export default class SectionFooter extends Component {
           <div className="row">
             <div className="col s12">
               <p className="footer-copyright">
-                JSConf colombia 2019 -{" "}
+                JSConf Colombia 2019 -{" "}
                 <a
                   className="underline--footer"
                   href="https://jsconf.com/codeofconduct.html"
@@ -16,8 +16,8 @@ export default class SectionFooter extends Component {
                   rel="noopener noreferrer"
                 >
                   Code of conduct
-                </a>{" "}
-                This website was built with love from Quibdó, Colombia by:{" "}
+                </a>
+                - This website was built with love from Quibdó, Colombia by:{" "}
                 <a
                   className="underline--footer"
                   href="https://twitter.com/asprillastiwar"
@@ -33,7 +33,7 @@ export default class SectionFooter extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                @MiltonCode
+                  @MiltonCode
                 </a>
               </p>
             </div>
