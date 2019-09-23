@@ -6,6 +6,7 @@ import Prodigious from "../images/sponsor_prodigious";
 import UruiT from "../images/sponsor_uruit";
 import Cloudinary from "../images/sponsor_cloudinary";
 import RutaN from "../images/sponsor_rutan";
+import S4n from '../images/sponsor_s4n'
 import "./sponsors.scss";
 
 const SectionSponsors = () => (
@@ -31,6 +32,14 @@ const SectionSponsors = () => (
             rel="noopener noreferrer"
           >
             <RutaN />
+          </a>
+          <a
+            className="section-sponsors-view__card"
+            href="https://s4n.co/"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
+            <S4n />
           </a>
         </div>
       </article>
