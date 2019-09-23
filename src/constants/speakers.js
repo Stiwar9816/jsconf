@@ -199,7 +199,7 @@ export const speakers = {
     twitterUrl: 'https://twitter.com/nebrius',
     figure:Bryan,
     talkName:'“Finding your inner artist” or “Feeding your inner artist.”',
-    description:'tbd'
+    description:'Finding Your Inner Artist - Art is important; it is the culmination of everything good...<div id="bryanHug" class="modal"><div class="modal-content">about our species. As Tolstoy said," Art is a microscope which the artist fixes on the secrets of his soul, and shows to people these secrets which are common to all."<br/>Creating art is different than building a product. The tools can be similar, but the motivation is different. With art, we are trying to further our understanding of ourselves and what it means to be human. It makes us better people.<br/>You don not have to go to years of art school to become an artist, I certainly didn t. You can do it, and you should. Learn how to find your inner artist and express yourself.</div></div>'
   },
   eva:{
     alias: '#evaFe',
