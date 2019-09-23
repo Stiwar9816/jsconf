@@ -57,12 +57,12 @@ export default function Day1() {
         activity="Lunch"
       />
       <TalkEvent
-        time="03:25pm"
-        {...speakers.santiago}
-      />
-      <TalkEvent
         time="03:15pm"
         {...speakers.anton}
+      />
+      <TalkEvent
+        time="03:25pm"
+        {...speakers.santiago}
       />
       <TalkEvent
         time="03:50pm"
