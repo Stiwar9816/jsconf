@@ -118,11 +118,7 @@ class Asidebar extends React.Component {
                     team
                   </a>
                 </li>
-                <li className="main-menu__item">
-                  <Link className="main-menu__link" to="/schedule">
-                    schedule
-                  </Link>
-                </li>
+               
                 <li className="main-menu__item">
                   {/* <a className="main-menu__link" href="#tuned">
                     stay tuned
@@ -134,6 +130,11 @@ class Asidebar extends React.Component {
                     onClick={e => this.scrollMobile(e, 'tuned')}>
                     stay tuned
                   </a>
+                </li>
+                <li className="main-menu__item">
+                  <Link className="main-menu__link" to="/schedule">
+                    schedule
+                  </Link>
                 </li>
               </ul>
             </div>

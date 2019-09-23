@@ -18,11 +18,11 @@ export default function Day1() {
       />
       <SingleEvent
         time="09:00am"
-        activity="Welcome"
+        activity="Show"
       />
       <SingleEvent
-        time="09:25am"
-        activity="Show"
+        time="09:40am"
+        activity="Welcome"
       />
       <TalkEvent
         time="10:05am"
@@ -48,21 +48,21 @@ export default function Day1() {
         time="12:30pm"
         {...speakers.irina}
       />
-       <SingleEvent
-        time="01:05pm"
-        activity="Lunch"
-      />
       <TalkEvent
-        time="02:20pm"
+        time="01:05pm"
         {...speakers.melina}
       />
-      <TalkEvent
-        time="02:40pm"
-        {...speakers.santiago}
+       <SingleEvent
+        time="02:00pm"
+        activity="Lunch"
       />
       <TalkEvent
         time="03:15pm"
         {...speakers.anton}
+      />
+      <TalkEvent
+        time="03:25pm"
+        {...speakers.santiago}
       />
       <TalkEvent
         time="03:50pm"

@@ -53,7 +53,7 @@
     display: block;
     text-align: center;
     margin: var(--gutter) 0;
-    color: var(--v-fourthColor);
+    color: var(--thirdColor);
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -76,7 +76,7 @@
       background-color: var(--secondColor);
       padding: .8em;
       border-radius: 5px;
-      color: var(--p-primaryColor);
+      // color: var(--primaryColor);
       margin: 0 10px;
       min-width: 90px;
       font-weight: var(--bold);
@@ -84,6 +84,9 @@
       transition: .4s ease;
       &:hover {
         background-color: var(--v-secondColor);
+      }
+      a{
+        color: var(--primaryColor);
       }
     }
 
@@ -230,7 +233,7 @@
 
       & a {
         padding: var(--gutter);
-        color: var(--v-thirdColor);
+        color: var(--primaryColor);
         font-size: 1.125em;
         letter-spacing: 2px;
 

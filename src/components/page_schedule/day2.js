@@ -46,7 +46,7 @@ export default function Day1() {
       />
       <SingleEvent
         time="12:50pm"
-        activity="group foto"
+        activity="group photo"
       />
       <SingleEvent
         time="01:05pm"
