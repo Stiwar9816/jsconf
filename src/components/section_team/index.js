@@ -191,7 +191,7 @@ export default class sectionTeam extends Component {
                   <Nataly />{" "}
                 </figure>
                 <div className="section-speakers__description">
-                  <h5> Nataly Villamor</h5>
+                  <h5> Nathaly Villamor</h5>
                   <p>Staff</p>
 
                   <a
