@@ -40,16 +40,21 @@ class PageSchedule extends React.Component {
             </div>
           </div>
           <div className="page-schedule__day-picker  inner-padding">
-            <button className="pick-day">
-              <Link to="/schedule_day1">
+
+             <Link
+                className="pick-day"
+                to="/schedule_day1"
+                activeStyle={{ color: "#E1E1E1" }}
+              >
                   day 1
               </Link>
-            </button>
-            <button className="pick-day">
-              <Link to="/schedule_day2">
+              <Link
+                className="pick-day"
+                to="/schedule_day2"
+                activeStyle={{ color: "#E1E1E1" }}
+              >
                   day 2
               </Link>
-            </button>
 
           </div>
 
