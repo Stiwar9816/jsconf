@@ -51,7 +51,7 @@ class Asidebar extends React.Component {
       <aside className="aside">
         <div className="container">
           <div className="content-btn-schedule">
-            <Link className="btn-schedule" to="/schedule">
+            <Link className="btn-schedule" to="/schedule/#schedule">
               <i className="icon-calendar-1"></i>
             </Link>
           </div>
@@ -118,7 +118,7 @@ class Asidebar extends React.Component {
                     team
                   </a>
                 </li>
-               
+
                 <li className="main-menu__item">
                   {/* <a className="main-menu__link" href="#tuned">
                     stay tuned
@@ -132,7 +132,7 @@ class Asidebar extends React.Component {
                   </a>
                 </li>
                 <li className="main-menu__item">
-                  <Link className="main-menu__link" to="/schedule">
+                  <Link className="main-menu__link" to="/schedule/#schedule">
                     schedule
                   </Link>
                 </li>
