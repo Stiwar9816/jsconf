@@ -11,7 +11,7 @@ export default function Day1() {
   return (
      // Mterialize - Modal
     <ul className="page-schedule__ul">
-      <h2 className="page-schedule__day" id="schedule">October 18</h2>
+      <h2 className="page-schedule__day" >October 18</h2>
       <SingleEvent
         time="08:00am"
         activity="Registration"
