@@ -74,7 +74,7 @@ export default class sectionTeam extends Component {
                   <h5>Liz Parody</h5>
                   <p>Directors</p>
                   <a
-                    href="https://twitter.com/buritica"
+                    href="https://twitter.com/lizparody23"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -90,7 +90,7 @@ export default class sectionTeam extends Component {
                   <h5>Julián Duque</h5>
                   <p>Staff</p>
                   <a
-                    href="https://twitter.com/buritica"
+                    href="https://twitter.com/julian_duque"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
