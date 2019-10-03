@@ -31,7 +31,7 @@ class PageSchedule extends React.Component {
       <section className="page-schedule">
         <div className="container">
 
-          <h2 className="page-schedule__title  inner-padding">schedule</h2>
+          <h2 className="page-schedule__title  inner-padding" id="schedule">schedule</h2>
 
           <div id="modal1" className="modal">
             <div className="modal-content">
@@ -46,14 +46,14 @@ class PageSchedule extends React.Component {
           <div className="page-schedule__day-picker  inner-padding">
               <Link
                 className="pick-day"
-                to="/schedule_day1"
+                to="/schedule_day1/#schedule"
                 activeStyle={{ color: "#E1E1E1" }}
               >
                   day 1
               </Link>
               <Link
                 className="pick-day"
-                to="/schedule_day2"
+                to="/schedule_day2/#schedule"
                 activeStyle={{ color: "#E1E1E1" }}
               >
                   day 2

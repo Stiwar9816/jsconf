@@ -7,7 +7,7 @@ import { speakers } from '../../constants/speakers'
 export default function Day1() {
   return (
     <ul className="page-schedule__ul">
-      <h2 className="page-schedule__day">October 19</h2>
+      <h2 className="page-schedule__day" >October 19</h2>
       <SingleEvent
         time="08:15am"
         activity="Registration"

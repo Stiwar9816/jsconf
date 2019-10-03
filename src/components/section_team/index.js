@@ -30,7 +30,7 @@ export default class sectionTeam extends Component {
                   <Buritica />{" "}
                 </figure>
                 <div className="section-speakers__description">
-                  <h5>Juan Pablo Buritica</h5>
+                  <h5>Juan Pablo Buriticá</h5>
                   <p> Staff</p>
                   <a
                     href="https://twitter.com/buritica"
@@ -74,7 +74,7 @@ export default class sectionTeam extends Component {
                   <h5>Liz Parody</h5>
                   <p>Directors</p>
                   <a
-                    href="https://twitter.com/buritica"
+                    href="https://twitter.com/lizparody23"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -87,10 +87,10 @@ export default class sectionTeam extends Component {
             <div className="col s12 m6 l6">
               <article className="section-team__content">
                 <div className="section-speakers__description">
-                  <h5>Julian Duque</h5>
+                  <h5>Julián Duque</h5>
                   <p>Staff</p>
                   <a
-                    href="https://twitter.com/buritica"
+                    href="https://twitter.com/julian_duque"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -127,7 +127,7 @@ export default class sectionTeam extends Component {
             <div className="col s12 m6 l6">
               <article className="section-team__content">
                 <div className="section-speakers__description">
-                  <h5> Adrian Estrada</h5>
+                  <h5> Adrián Estrada</h5>
                   <p>Staff</p>
                   <a
                     href="https://twitter.com/edsadr"
@@ -191,7 +191,7 @@ export default class sectionTeam extends Component {
                   <Nataly />{" "}
                 </figure>
                 <div className="section-speakers__description">
-                  <h5> Nataly Villamor</h5>
+                  <h5> Nathaly Villamor</h5>
                   <p>Staff</p>
 
                   <a
@@ -208,7 +208,7 @@ export default class sectionTeam extends Component {
             <div className="col s12 m6 l6">
               <article className="section-team__content">
                 <div className="section-speakers__description">
-                  <h5>Jesee Cogollo</h5>
+                  <h5>Jesse Cogollo</h5>
                   <p>Directors</p>
                   <a
                     href="https://www.twitter.com/JesseCogollo"

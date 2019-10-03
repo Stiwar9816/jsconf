@@ -217,6 +217,6 @@ export const speakers = {
     twitterUrl:'https://twitter.com/JeromeHardaway',
     figure:Jerome,
     talkName:'Writing Newbie-Friendly Javascript: Building a Codebase For The You From Five Years Ago',
-    description:'tbd'
+    description:'In this fun talk Jerome will speak at length on steps to take that make codebases friendly as he reminisces through his own hardships on his journey to becoming a programmer and the things we forget and steps he and others can take to not make the process so difficult.'
   }
 }
