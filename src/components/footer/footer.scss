@@ -3,6 +3,7 @@
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 60%);
   clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 60%);
   text-align: center;
+  margin-top: -1px;
   padding: calc(var(--gutter) * 2);
   &-copyright {
     color: var(--p-primaryColor);
