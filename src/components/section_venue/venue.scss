@@ -1,5 +1,5 @@
 .section-venue{
-  position: relative;
+  margin-top: -1px;
   background-color: var(--v-fourthColor);
   clip-path: polygon(
     20% 0%,
@@ -11,20 +11,6 @@
     0% 80%,
     0 0
   );
-
-  // ARROW DOWN
-  .btn-next-section{
-    display: none;
-    position: absolute;
-    bottom: 5%;
-    width: 50px;
-    left: 80%;
-    // margin: var(--gutter) 0;
-    padding: .2em;
-    background-color: var(--v-bg-menu);
-    border-radius: 5px;
-    z-index: 100;
-  }
 
 
   &__title{
