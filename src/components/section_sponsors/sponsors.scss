@@ -70,7 +70,7 @@
   }
 
   .medium {
-    width: 70%;
+    width: 80%;
     margin: auto;
     & > div {
       flex: 0 1 250px;
@@ -80,9 +80,7 @@
   .small {
     width: 50%;
     margin: auto;
-    & > div {
-      flex: 0 1 250px;
-    }
+
   }
 
   &__medal {
@@ -126,10 +124,11 @@
           padding: 10px !important;
           border-radius: 20px;
           text-align: center;
+
         }
         .gatsby-image-wrapper {
-          width: 150px;
-          max-height: 150px;
+          width: 200px;
+          max-height: 200px;
           margin: auto;
           img {
             object-fit: contain !important;
@@ -220,8 +219,8 @@
         min-height: 0;
         .section-sponsors-view__card {
           .gatsby-image-wrapper {
-            width: 130px;
-            max-height: 130px;
+            width: 200px;
+            max-height: 200px;
           }
           &.getonboard,
           &.github {

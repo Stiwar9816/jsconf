@@ -75,9 +75,9 @@ const SectionSponsors = () => (
       </article>
 
       <div className="inner-wrap-desktop">
-        <article className="section-sponsors-view__content medium">
+        <article className="section-sponsors-view__content bottom">
           <h3 className="section-sponsors-view__tag  silver">Silver</h3>
-          <div className="section-sponsors-view__data  medium">
+          <div className="section-sponsors-view__data  small">
             <a
               className="section-sponsors-view__card prodigious"
               href="https://www.prodigious.com/"
