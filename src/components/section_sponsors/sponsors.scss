@@ -36,7 +36,6 @@
     margin-bottom: 1em;
     &.bottom {
       min-height: 400px;
-      // max-width: 850px;
       margin-bottom: 0;
     }
 
@@ -73,7 +72,6 @@
   .medium {
     width: 70%;
     margin: auto;
-
     & > div {
       flex: 0 1 250px;
     }
@@ -82,6 +80,9 @@
   .small {
     width: 50%;
     margin: auto;
+    & > div {
+      flex: 0 1 250px;
+    }
   }
 
   &__medal {
