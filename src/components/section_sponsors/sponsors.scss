@@ -189,12 +189,24 @@
         flex: 0 1 100%;
       }
     }
+    .gold {
+      color: #fff;
+      width: 108px;
+      margin: 40px 0 10px;
+      margin-left: 50px;
+    }
   }
 
   @media only screen and (min-width: 1024px) {
     .inner-wrap-desktop {
       margin: 0 auto;
       width: 80%;
+    }
+    .gold {
+      color: #fff;
+      width: 108px;
+      margin: 40px 0 10px;
+      margin-left: 90px;
     }
   }
   @media only screen and (max-width: 981px) {
@@ -208,6 +220,12 @@
     }
     &__title {
       font-size: 36px;
+    }
+    .gold {
+      color: #fff;
+      width: 108px;
+      margin: 40px 0 10px;
+      margin-left: 90px;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -251,7 +269,7 @@
       color: #fff;
       width: 108px;
       margin: 40px 0 10px;
-      margin-left: 100px;
+      margin-left: 90px;
     }
   }
 }
