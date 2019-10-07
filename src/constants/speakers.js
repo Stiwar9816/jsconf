@@ -15,11 +15,11 @@ import Irina from '../components/images/speaker_14'
 import Kate from '../components/images/speaker_15'
 import Luis_villalobos from '../components/images/speaker_16'
 import Luis_vega from '../components/images/speaker_17'
+import Constanza from '../components/images/speaker_18'
 import Eva from '../components/images/speaker_19'
-import Constanza from '../components/images/co_constanza'
+import Jerome from '../components/images/speaker_21'
 import Jessica from '../components/images/speaker_22'
 import Bryan from '../components/images/nebrius'
-import Jerome from '../components/images/speaker_21'
 
 
 export const speakers = {
