@@ -36,12 +36,14 @@
     margin-bottom: 1em;
     &.bottom {
       min-height: 400px;
+      // max-width: 850px;
       margin-bottom: 0;
     }
+
     &.medium {
-      min-height: 300px;
-      max-width: 250px;
-      margin-bottom: 0;
+      max-width: 300px;
+      min-height: 250px;
+      margin-bottom: 1em;
     }
   }
 
@@ -124,11 +126,6 @@
           border-radius: 20px;
           text-align: center;
         }
-        // &.nearform {
-        //   .gatsby-image-wrapper {
-        //     width: 200px;
-        //   }
-        // }
         .gatsby-image-wrapper {
           width: 150px;
           max-height: 150px;
@@ -254,7 +251,7 @@
       color: #fff;
       width: 108px;
       margin: 40px 0 10px;
-      margin-left: 60px;
+      margin-left: 100px;
     }
   }
 }
