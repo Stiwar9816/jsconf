@@ -115,7 +115,7 @@ const SectionSponsors = () => (
             </a>
             <a
               className="section-sponsors-view__card getonboard"
-              href="https://www.getonbrd.com"
+              href="https://monoku.com/"
               target="__blank"
               rel="noopener noreferrer"
             >
@@ -123,7 +123,7 @@ const SectionSponsors = () => (
             </a>
             <a
               className="section-sponsors-view__card "
-              href="https://www.mongodb.com"
+              href="https://www.techatbloomberg.com/"
               target="__blank"
               rel="noopener noreferrer"
             >
