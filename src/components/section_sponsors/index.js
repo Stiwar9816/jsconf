@@ -70,7 +70,7 @@ const SectionSponsors = () => (
           </a>
           <a
             className="section-sponsors-view__card"
-            href="https://cloudinary.com/"
+            href="https://cloudinary.com"
             target="__blank"
             rel="noopener noreferrer"
           >
@@ -78,7 +78,7 @@ const SectionSponsors = () => (
           </a>
           <a
             className="section-sponsors-view__card"
-            href="https://www.skillshare.com/"
+            href="https://www.skillshare.com"
             target="__blank"
             rel="noopener noreferrer"
           >
@@ -92,7 +92,7 @@ const SectionSponsors = () => (
         <div className="section-sponsors-view__data  big">
           <a
             className="section-sponsors-view__card prodigious"
-            href="https://www.prodigious.com/"
+            href="https://www.prodigious.com"
             target="__blank"
             rel="noopener noreferrer"
           >
@@ -107,7 +107,7 @@ const SectionSponsors = () => (
           <div className="section-sponsors-view__data  small">
             <a
               className="section-sponsors-view__card "
-              href="https://uruit.com/"
+              href="https://move-it.com"
               target="__blank"
               rel="noopener noreferrer"
             >
@@ -123,7 +123,7 @@ const SectionSponsors = () => (
             </a>
             <a
               className="section-sponsors-view__card "
-              href="https://www.mongodb.com/"
+              href="https://www.mongodb.com"
               target="__blank"
               rel="noopener noreferrer"
             >
@@ -135,7 +135,7 @@ const SectionSponsors = () => (
           <div className="section-sponsors-view__data  small">
             <a
               className="section-sponsors-view__card "
-              href="https://uruit.com/"
+              href="https://uruit.com"
               target="__blank"
               rel="noopener noreferrer"
             >
@@ -151,7 +151,7 @@ const SectionSponsors = () => (
             </a>
             <a
               className="section-sponsors-view__card "
-              href="https://www.mongodb.com/"
+              href="https://www.mongodb.com"
               target="__blank"
               rel="noopener noreferrer"
             >
