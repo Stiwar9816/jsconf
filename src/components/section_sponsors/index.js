@@ -6,8 +6,13 @@ import Prodigious from "../images/sponsor_prodigious";
 import UruiT from "../images/sponsor_uruit";
 import Cloudinary from "../images/sponsor_cloudinary";
 import RutaN from "../images/sponsor_rutan";
-import S4n from '../images/sponsor_s4n'
-import Livevox from '../images/sponsor_livevox'
+import S4n from "../images/sponsor_s4n";
+import Livevox from "../images/sponsor_livevox";
+import Skillshare from "../images/sponsor_skillshare";
+import Mongodb from "../images/sponsor_mongodb";
+import MoveIt from "../images/sponsor_moveIt";
+import Monoku from "../images/sponsor_monoku";
+import Bloomberg from "../images/sponsor_bloomberg";
 import "./sponsors.scss";
 
 const SectionSponsors = () => (
@@ -71,36 +76,62 @@ const SectionSponsors = () => (
           >
             <Cloudinary />
           </a>
+          <a
+            className="section-sponsors-view__card"
+            href="https://www.skillshare.com/"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
+            <Skillshare />
+          </a>
+        </div>
+      </article>
+
+      <article className="section-sponsors-view__content medium">
+        <h3 className="section-sponsors-view__tag  silver">Silver</h3>
+        <div className="section-sponsors-view__data  big">
+          <a
+            className="section-sponsors-view__card prodigious"
+            href="https://www.prodigious.com/"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
+            <Prodigious />
+          </a>
         </div>
       </article>
 
       <div className="inner-wrap-desktop">
         <article className="section-sponsors-view__content bottom">
-          <h3 className="section-sponsors-view__tag  silver">Silver</h3>
+          <h3 className="section-sponsors-view__tag  supporters">Supporters</h3>
           <div className="section-sponsors-view__data  small">
             <a
-              className="section-sponsors-view__card prodigious"
-              href="https://www.prodigious.com/"
+              className="section-sponsors-view__card "
+              href="https://uruit.com/"
               target="__blank"
               rel="noopener noreferrer"
             >
-              <Prodigious />
+              <MoveIt />
             </a>
-          </div>
-        </article>
-
-        <article className="section-sponsors-view__content bottom">
-          <h3 className="section-sponsors-view__tag  supporters">Supporters</h3>
-          <div className="section-sponsors-view__data  small">
             <a
               className="section-sponsors-view__card getonboard"
               href="https://www.getonbrd.com"
               target="__blank"
               rel="noopener noreferrer"
             >
-              <GetOnBoard />
+              <Monoku />
+            </a>
+            <a
+              className="section-sponsors-view__card "
+              href="https://www.mongodb.com/"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              <Bloomberg />
             </a>
           </div>
+        </article>
+        <article className="section-sponsors-view__content bottom">
           <div className="section-sponsors-view__data  small">
             <a
               className="section-sponsors-view__card "
@@ -110,10 +141,25 @@ const SectionSponsors = () => (
             >
               <UruiT />
             </a>
+            <a
+              className="section-sponsors-view__card getonboard"
+              href="https://www.getonbrd.com"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              <GetOnBoard />
+            </a>
+            <a
+              className="section-sponsors-view__card "
+              href="https://www.mongodb.com/"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              <Mongodb />
+            </a>
           </div>
         </article>
       </div>
-
     </div>
   </section>
 );

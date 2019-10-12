@@ -11,18 +11,6 @@
   );
   background-color: var(--v-thirdColor);
 
-  // ARROW DOWN
-  .btn-next-section {
-    display: none;
-    position: relative;
-    bottom: 20px;
-    width: 50px;
-    // margin: var(--gutter) 0;
-    padding: 0.2em;
-    background-color: var(--v-bg-menu);
-    border-radius: 5px;
-  }
-
   &__title {
     padding-bottom: 40px;
     padding-top: 40px;
@@ -35,7 +23,7 @@
   &__content {
     margin-bottom: 1em;
     &.bottom {
-      min-height: 400px;
+      min-height: 200px;
       margin-bottom: 0;
     }
 
@@ -70,7 +58,7 @@
   }
 
   .medium {
-    width: 80%;
+    width: 70%;
     margin: auto;
     & > div {
       flex: 0 1 250px;
@@ -78,9 +66,8 @@
   }
 
   .small {
-    width: 50%;
+    width: 40%;
     margin: auto;
-
   }
 
   &__medal {
@@ -114,8 +101,8 @@
     &.bottom {
       .section-sponsors-view__card {
         &.getonboard {
-          background-color: #545561;
-          padding: 10px !important;
+          background-color: transparent;
+          padding: 2px !important;
           border-radius: 20px;
           text-align: center;
         }
@@ -124,12 +111,12 @@
           padding: 10px !important;
           border-radius: 20px;
           text-align: center;
-
         }
         .gatsby-image-wrapper {
-          width: 200px;
+          width: 150px;
           max-height: 200px;
           margin: auto;
+
           img {
             object-fit: contain !important;
           }
@@ -193,7 +180,13 @@
       color: #fff;
       width: 108px;
       margin: 40px 0 10px;
-      margin-left: 50px;
+      // margin-left: 40px;
+    }
+    .silver {
+      color: #000;
+      width: 108px;
+      margin: 40px 0 10px;
+      // margin-left: 50px;
     }
   }
 
@@ -206,7 +199,21 @@
       color: #fff;
       width: 108px;
       margin: 40px 0 10px;
-      margin-left: 90px;
+      margin-left: 95px;
+    }
+    .silver {
+      color: #000;
+      width: 108px;
+      margin: 40px 0 10px;
+       margin-left: 90px;
+    }
+    .supporters {
+      color: #000;
+      width: 108px;
+      // margin: 40px 0 10px;
+      margin-bottom: 20px;
+      margin-left: 320px;
+
     }
   }
   @media only screen and (max-width: 981px) {
@@ -225,7 +232,13 @@
       color: #fff;
       width: 108px;
       margin: 40px 0 10px;
-      margin-left: 90px;
+      // margin-left: 20px;
+    }
+    .silver {
+      color: #000;
+      width: 108px;
+      margin: 40px 0 10px;
+      // margin-left: 100px;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -237,14 +250,14 @@
         min-height: 0;
         .section-sponsors-view__card {
           .gatsby-image-wrapper {
-            width: 200px;
-            max-height: 200px;
+            width: 150px;
+            max-height: 150px;
           }
           &.getonboard,
           &.github {
             .gatsby-image-wrapper {
-              width: 100px;
-              max-height: 100px;
+              width: 150px;
+              max-height: 150px;
             }
           }
           &.nearform {
@@ -259,17 +272,22 @@
     .small {
       width: fit-content;
     }
-    .supporters,
+    .supporters {
+      color: #000;
+      width: 108px;
+      margin: 40px 0 10px;
+    }
     .silver {
       color: #000;
       width: 108px;
       margin: 40px 0 10px;
+      margin-left: 70px;
     }
     .gold {
       color: #fff;
       width: 108px;
       margin: 40px 0 10px;
-      margin-left: 90px;
+      margin-left: 70px;
     }
   }
 }
