@@ -81,12 +81,12 @@ export default function Day1() {
         {...speakers.eva}
       />
       <SingleEvent
-        time="05:00pm"
+        time="06:05pm"
         activity="Closing"
       />
       <SingleEvent
         time="07:00pm"
-        activity="After Party"
+        activity="🎉🎊 After Party - Dance Free, Calle 10A #40-27, El poblado 🎉🎊"
       />
     </ul>
   )
