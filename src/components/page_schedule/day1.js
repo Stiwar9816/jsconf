@@ -2,6 +2,7 @@ import React from "react";
 
 import SingleEvent from "./single_event";
 import TalkEvent from "./talk_event";
+import ShowEvent from "./show_event";
 import { speakers } from "../../constants/speakers";
 
 export default function Day1() {
@@ -10,10 +11,7 @@ export default function Day1() {
     <ul className="page-schedule__ul">
       <h2 className="page-schedule__day">October 18</h2>
       <SingleEvent time="08:00am" activity="Registration" />
-      <SingleEvent
-        time="09:00am"
-        activity="✨Show✨:Algoritmos 3:1 es una propuesta donde tres programadores crean usando un editor de texto compartido por web sockets musica y visuales con sólo texto. El sistema permite cambiar el código de los otros programadores en tiempo real y la salida es el resultado de interpretar el código cada que es actualizado. Los lenguajes usados en el mas alto nivel son creados por los programadores mismos pero pueden se interpretados en lenguajes generales, para este caso, Javascript será el protagonista."
-      />
+      <ShowEvent time="09:00am" {...speakers.show} />
       <SingleEvent time="09:40am" activity="Welcome" />
       <TalkEvent time="10:05am" {...speakers.constanza} />
       <TalkEvent time="10:40am" {...speakers.sergio} />

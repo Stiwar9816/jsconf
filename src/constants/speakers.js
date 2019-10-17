@@ -20,6 +20,7 @@ import Eva from '../components/images/speaker_19'
 import Jerome from '../components/images/speaker_21'
 import Jessica from '../components/images/speaker_22'
 import Bryan from '../components/images/nebrius'
+import Show from '../components/images/show'
 
 
 export const speakers = {
@@ -218,5 +219,17 @@ export const speakers = {
     figure:Jerome,
     talkName:'Writing Newbie-Friendly Javascript: Building a Codebase For The You From Five Years Ago',
     description:'In this fun talk Jerome will speak at length on steps to take that make codebases friendly as he reminisces through his own hardships on his journey to becoming a programmer and the things we forget and steps he and others can take to not make the process so difficult.'
+  },
+  show:{
+    alias: '#show',
+    name:'Celeste Esteban Bentancur (aka Essteb Machina), Santiago Benítez (aka Santiago Beta), Juan David Rivera (aka David Crowley) ',
+    twitterName1:'@essteb',
+    twitterUrl1:'https://twitter.com/essteb',
+    twitterName2:'@Santiago0Beta',
+    twitterUrl2:'https://twitter.com/Santiago0Beta',
+    figure: Show,
+    talkName:'✨Show: Algo0ritmos✨',
+    description:'Es una propuesta donde tres programadores crean - usando un editor de texto compartido por web sockets - música y visuales con sólo texto...<div id="show" class="modal"><div class="modal-content">El sistema permite cambiar el código de los otros programadores en tiempo real y la salida es el resultado de interpretar el código cada que es actualizado. Los lenguajes usados en el mas alto nivel son creados por los programadores mismos pero pueden ser interpretados en lenguajes generales, para este caso, Javascript será el protagonista.</div></div>'
   }
+
 }
