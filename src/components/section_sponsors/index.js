@@ -8,7 +8,7 @@ import Cloudinary from "../images/sponsor_cloudinary";
 import RutaN from "../images/sponsor_rutan";
 import S4n from "../images/sponsor_s4n";
 import Livevox from "../images/sponsor_livevox";
-import Skillshare from "../images/sponsor_skillshare";
+import Skillshare from "../images/skillshare";
 import Mongodb from "../images/sponsor_mongodb";
 import MoveIt from "../images/sponsor_moveIt";
 import Monoku from "../images/sponsor_monoku";
